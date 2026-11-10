@@ -1,0 +1,12 @@
+{
+  "search_kind": "exact byte strings across every regular archive member",
+  "regular_files_searched": 9815,
+  "uncompressed_bytes": 98322058,
+  "queries": {
+    "CODEX_TASK_WORKSPACE_VERIFYING_IDENTITY": [],
+    "CODEX_APP_TOOLS_PIPE_PATH": [],
+    "codex.taskThread.read.v1": [],
+    "codex.taskWorkspace.prepare.v1": []
+  },
+  "commit": "c40729ea5cf8e947481b130c59807273eda2f8e9"
+}

@@ -1,0 +1,3373 @@
+{
+  "artifact_count": 137,
+  "artifacts": {
+    "Contents/Frameworks/Codex Framework.framework/Versions/157.0.8103.39/Codex Framework": {
+      "evidence_type": "observed",
+      "hash_state": "skipped_size_limit",
+      "kinds": [
+        "framework_executable"
+      ],
+      "mode": "0o755",
+      "sha256": null,
+      "signing": {
+        "entitlements": {},
+        "entitlements_exit_code": 0,
+        "metadata": {
+          "Authority": [
+            "(unavailable)"
+          ],
+          "CDHash": "f3d4382b0b40cc049f31013a110e60f7e34da9b1",
+          "Format": "bundle with Mach-O thin (arm64)",
+          "Identifier": "com.openai.codex.framework",
+          "Runtime Version": "26.5.0",
+          "TeamIdentifier": "2DC432GLL2"
+        },
+        "metadata_exit_code": 0,
+        "state": "observed",
+        "verification_performed": false
+      },
+      "size_bytes": 280353184
+    },
+    "Contents/Frameworks/Codex Framework.framework/Versions/157.0.8103.39/Helpers/Codex (Alerts).app/Contents/Info.plist": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_plist"
+      ],
+      "mode": "0o644",
+      "plist": {
+        "CFBundleDisplayName": "Codex (Alerts)",
+        "CFBundleExecutable": "Codex (Alerts)",
+        "CFBundleIdentifier": "com.openai.codex.framework.AlertNotificationService",
+        "CFBundleName": "Codex",
+        "CFBundleShortVersionString": "157.0.8103.39",
+        "CFBundleVersion": "8103.39",
+        "LSMinimumSystemVersion": "13.0",
+        "LSUIElement": "1"
+      },
+      "sha256": "9306b6e68ae3c8c447a332a27234323eb3aa84efa7e715fcbca6cadcfa9035d3",
+      "size_bytes": 1803
+    },
+    "Contents/Frameworks/Codex Framework.framework/Versions/157.0.8103.39/Helpers/Codex (Alerts).app/Contents/MacOS/Codex (Alerts)": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_executable"
+      ],
+      "mode": "0o755",
+      "sha256": "5951db89907be37347e89a7712678cf1a86d9bc82cbe825e3119421607441b2f",
+      "signing": {
+        "entitlements": {
+          "com.apple.security.app-sandbox": false,
+          "com.apple.security.application-groups": [
+            "2DC432GLL2.com.openai.codex.notifications",
+            "2DC432GLL2.com.openai.sky.CUAService"
+          ],
+          "com.apple.security.automation.apple-events": true,
+          "com.apple.security.cs.allow-jit": true,
+          "com.apple.security.cs.allow-unsigned-executable-memory": true,
+          "com.apple.security.device.audio-input": true,
+          "com.apple.security.device.camera": true,
+          "com.apple.security.files.user-selected.read-write": true,
+          "com.apple.security.network.client": true,
+          "com.apple.security.personal-information.calendars": true
+        },
+        "entitlements_exit_code": 0,
+        "metadata": {
+          "Authority": [
+            "(unavailable)"
+          ],
+          "CDHash": "ac75d83d1e430396af9e1464bd5b2511fc6d6a38",
+          "Format": "app bundle with Mach-O thin (arm64)",
+          "Identifier": "com.openai.codex.framework.AlertNotificationService",
+          "Runtime Version": "26.5.0",
+          "TeamIdentifier": "2DC432GLL2"
+        },
+        "metadata_exit_code": 0,
+        "state": "observed",
+        "verification_performed": false
+      },
+      "size_bytes": 87520
+    },
+    "Contents/Frameworks/Codex Framework.framework/Versions/157.0.8103.39/Helpers/Codex (Aperitif Alerts).app/Contents/Info.plist": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_plist"
+      ],
+      "mode": "0o644",
+      "plist": {
+        "CFBundleDisplayName": "Codex (Aperitif Alerts)",
+        "CFBundleExecutable": "Codex (Aperitif Alerts)",
+        "CFBundleIdentifier": "com.openai.codex.framework.AlertNotificationService",
+        "CFBundleName": "Codex",
+        "CFBundleShortVersionString": "157.0.8103.39",
+        "CFBundleVersion": "8103.39",
+        "LSMinimumSystemVersion": "13.0",
+        "LSUIElement": "1"
+      },
+      "sha256": "93487c0c5087ef560c32d53e7fae858f70c81b84a943d179a78bc24781fd70e5",
+      "size_bytes": 1821
+    },
+    "Contents/Frameworks/Codex Framework.framework/Versions/157.0.8103.39/Helpers/Codex (Aperitif Alerts).app/Contents/MacOS/Codex (Aperitif Alerts)": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_executable"
+      ],
+      "mode": "0o755",
+      "sha256": "3616e8685e7811af7c0e76fd9443f34834373ea660dbe8c8fb1d1d828998fb25",
+      "signing": {
+        "entitlements": {
+          "com.apple.security.app-sandbox": false,
+          "com.apple.security.application-groups": [
+            "2DC432GLL2.com.openai.codex.notifications",
+            "2DC432GLL2.com.openai.sky.CUAService"
+          ],
+          "com.apple.security.automation.apple-events": true,
+          "com.apple.security.cs.allow-jit": true,
+          "com.apple.security.cs.allow-unsigned-executable-memory": true,
+          "com.apple.security.device.audio-input": true,
+          "com.apple.security.device.camera": true,
+          "com.apple.security.files.user-selected.read-write": true,
+          "com.apple.security.network.client": true,
+          "com.apple.security.personal-information.calendars": true
+        },
+        "entitlements_exit_code": 0,
+        "metadata": {
+          "Authority": [
+            "(unavailable)"
+          ],
+          "CDHash": "25339f71516ebb73fbfb29ad5a18c9d134348ee8",
+          "Format": "app bundle with Mach-O thin (arm64)",
+          "Identifier": "com.openai.codex.framework.AlertNotificationService",
+          "Runtime Version": "26.5.0",
+          "TeamIdentifier": "2DC432GLL2"
+        },
+        "metadata_exit_code": 0,
+        "state": "observed",
+        "verification_performed": false
+      },
+      "size_bytes": 51568
+    },
+    "Contents/Frameworks/Codex Framework.framework/Versions/157.0.8103.39/Helpers/Codex (Aperitif GPU).app/Contents/Info.plist": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_plist"
+      ],
+      "mode": "0o644",
+      "plist": {
+        "CFBundleDisplayName": "Codex (Aperitif GPU)",
+        "CFBundleExecutable": "Codex (Aperitif GPU)",
+        "CFBundleIdentifier": "com.openai.codex.helper",
+        "CFBundleName": "Codex",
+        "CFBundleShortVersionString": "157.0.8103.39",
+        "CFBundleVersion": "8103.39",
+        "LSMinimumSystemVersion": "13.0",
+        "LSUIElement": "1"
+      },
+      "sha256": "1aebc08b0f32de5ba386b98f66c046d95f1f40c58c7e27ccb7444526a893b831",
+      "size_bytes": 1497
+    },
+    "Contents/Frameworks/Codex Framework.framework/Versions/157.0.8103.39/Helpers/Codex (Aperitif GPU).app/Contents/MacOS/Codex (Aperitif GPU)": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_executable"
+      ],
+      "mode": "0o755",
+      "sha256": "71ec0fa70f6444356db50c58dac560de32d6942984e3382e1c9bad88cda4620b",
+      "signing": {
+        "entitlements": {
+          "com.apple.security.app-sandbox": false,
+          "com.apple.security.application-groups": [
+            "2DC432GLL2.com.openai.codex.notifications",
+            "2DC432GLL2.com.openai.sky.CUAService"
+          ],
+          "com.apple.security.automation.apple-events": true,
+          "com.apple.security.cs.allow-jit": true,
+          "com.apple.security.cs.allow-unsigned-executable-memory": true,
+          "com.apple.security.device.audio-input": true,
+          "com.apple.security.device.camera": true,
+          "com.apple.security.files.user-selected.read-write": true,
+          "com.apple.security.network.client": true,
+          "com.apple.security.personal-information.calendars": true
+        },
+        "entitlements_exit_code": 0,
+        "metadata": {
+          "Authority": [
+            "(unavailable)"
+          ],
+          "CDHash": "95b482ad80c6ab5a4aac5e2f5eddbbd0d94ef5a2",
+          "Format": "app bundle with Mach-O thin (arm64)",
+          "Identifier": "com.openai.codex.helper",
+          "Runtime Version": "26.5.0",
+          "TeamIdentifier": "2DC432GLL2"
+        },
+        "metadata_exit_code": 0,
+        "state": "observed",
+        "verification_performed": false
+      },
+      "size_bytes": 51568
+    },
+    "Contents/Frameworks/Codex Framework.framework/Versions/157.0.8103.39/Helpers/Codex (Aperitif Renderer).app/Contents/Info.plist": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_plist"
+      ],
+      "mode": "0o644",
+      "plist": {
+        "CFBundleDisplayName": "Codex (Aperitif Renderer)",
+        "CFBundleExecutable": "Codex (Aperitif Renderer)",
+        "CFBundleIdentifier": "com.openai.codex.helper.renderer",
+        "CFBundleName": "Codex",
+        "CFBundleShortVersionString": "157.0.8103.39",
+        "CFBundleVersion": "8103.39",
+        "LSMinimumSystemVersion": "13.0",
+        "LSUIElement": "1"
+      },
+      "sha256": "954e2f7a93ce7b2c57c725ed76f40abcca26b7a81c568e78af28ca2c08e2fd8c",
+      "size_bytes": 1516
+    },
+    "Contents/Frameworks/Codex Framework.framework/Versions/157.0.8103.39/Helpers/Codex (Aperitif Renderer).app/Contents/MacOS/Codex (Aperitif Renderer)": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_executable"
+      ],
+      "mode": "0o755",
+      "sha256": "c6e29921a9b89f871c80619f735eddfef1bca07ecfe29de5f0d9a93bc2b59d38",
+      "signing": {
+        "entitlements": {
+          "com.apple.security.app-sandbox": false,
+          "com.apple.security.application-groups": [
+            "2DC432GLL2.com.openai.codex.notifications",
+            "2DC432GLL2.com.openai.sky.CUAService"
+          ],
+          "com.apple.security.automation.apple-events": true,
+          "com.apple.security.cs.allow-jit": true,
+          "com.apple.security.cs.allow-unsigned-executable-memory": true,
+          "com.apple.security.device.audio-input": true,
+          "com.apple.security.device.camera": true,
+          "com.apple.security.files.user-selected.read-write": true,
+          "com.apple.security.network.client": true,
+          "com.apple.security.personal-information.calendars": true
+        },
+        "entitlements_exit_code": 0,
+        "metadata": {
+          "Authority": [
+            "(unavailable)"
+          ],
+          "CDHash": "ef890f8ef83be71483ee8ec8b9f2dcabb7afd83a",
+          "Format": "app bundle with Mach-O thin (arm64)",
+          "Identifier": "com.openai.codex.helper.renderer",
+          "Runtime Version": "26.5.0",
+          "TeamIdentifier": "2DC432GLL2"
+        },
+        "metadata_exit_code": 0,
+        "state": "observed",
+        "verification_performed": false
+      },
+      "size_bytes": 51568
+    },
+    "Contents/Frameworks/Codex Framework.framework/Versions/157.0.8103.39/Helpers/Codex (Aperitif).app/Contents/Info.plist": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_plist"
+      ],
+      "mode": "0o644",
+      "plist": {
+        "CFBundleDisplayName": "Codex (Aperitif)",
+        "CFBundleExecutable": "Codex (Aperitif)",
+        "CFBundleIdentifier": "com.openai.codex.helper",
+        "CFBundleName": "Codex",
+        "CFBundleShortVersionString": "157.0.8103.39",
+        "CFBundleVersion": "8103.39",
+        "LSMinimumSystemVersion": "13.0",
+        "LSUIElement": "1"
+      },
+      "sha256": "39be3c967a5abbeacc292d929efd8aec9176ceca5fcce6f37c4d2754ea934716",
+      "size_bytes": 1489
+    },
+    "Contents/Frameworks/Codex Framework.framework/Versions/157.0.8103.39/Helpers/Codex (Aperitif).app/Contents/MacOS/Codex (Aperitif)": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_executable"
+      ],
+      "mode": "0o755",
+      "sha256": "6a9a019379ccede2c17aef026893c19b6720e94af6e7972546eca09cccde7a69",
+      "signing": {
+        "entitlements": {
+          "com.apple.security.app-sandbox": false,
+          "com.apple.security.application-groups": [
+            "2DC432GLL2.com.openai.codex.notifications",
+            "2DC432GLL2.com.openai.sky.CUAService"
+          ],
+          "com.apple.security.automation.apple-events": true,
+          "com.apple.security.cs.allow-jit": true,
+          "com.apple.security.cs.allow-unsigned-executable-memory": true,
+          "com.apple.security.device.audio-input": true,
+          "com.apple.security.device.camera": true,
+          "com.apple.security.files.user-selected.read-write": true,
+          "com.apple.security.network.client": true,
+          "com.apple.security.personal-information.calendars": true
+        },
+        "entitlements_exit_code": 0,
+        "metadata": {
+          "Authority": [
+            "(unavailable)"
+          ],
+          "CDHash": "46002848974cfb8ec2a2130cda73b42f9df4093c",
+          "Format": "app bundle with Mach-O thin (arm64)",
+          "Identifier": "com.openai.codex.helper",
+          "Runtime Version": "26.5.0",
+          "TeamIdentifier": "2DC432GLL2"
+        },
+        "metadata_exit_code": 0,
+        "state": "observed",
+        "verification_performed": false
+      },
+      "size_bytes": 51568
+    },
+    "Contents/Frameworks/Codex Framework.framework/Versions/157.0.8103.39/Helpers/Codex (GPU).app/Contents/Info.plist": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_plist"
+      ],
+      "mode": "0o644",
+      "plist": {
+        "CFBundleDisplayName": "Codex (GPU)",
+        "CFBundleExecutable": "Codex (GPU)",
+        "CFBundleIdentifier": "com.openai.codex.helper",
+        "CFBundleName": "Codex",
+        "CFBundleShortVersionString": "157.0.8103.39",
+        "CFBundleVersion": "8103.39",
+        "LSMinimumSystemVersion": "13.0",
+        "LSUIElement": "1"
+      },
+      "sha256": "7e4a7be8e94671da09f3ad56bb1c9d9342977aadb32a6e528ecffe8c75f25d3d",
+      "size_bytes": 1479
+    },
+    "Contents/Frameworks/Codex Framework.framework/Versions/157.0.8103.39/Helpers/Codex (GPU).app/Contents/MacOS/Codex (GPU)": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_executable"
+      ],
+      "mode": "0o755",
+      "sha256": "1cb19cd4834ff1eff13c8c4dafa3205f76acc8b3608465d9e30080d9df945294",
+      "signing": {
+        "entitlements": {
+          "com.apple.security.app-sandbox": false,
+          "com.apple.security.application-groups": [
+            "2DC432GLL2.com.openai.codex.notifications",
+            "2DC432GLL2.com.openai.sky.CUAService"
+          ],
+          "com.apple.security.automation.apple-events": true,
+          "com.apple.security.cs.allow-jit": true,
+          "com.apple.security.cs.allow-unsigned-executable-memory": true,
+          "com.apple.security.device.audio-input": true,
+          "com.apple.security.device.camera": true,
+          "com.apple.security.files.user-selected.read-write": true,
+          "com.apple.security.network.client": true,
+          "com.apple.security.personal-information.calendars": true
+        },
+        "entitlements_exit_code": 0,
+        "metadata": {
+          "Authority": [
+            "(unavailable)"
+          ],
+          "CDHash": "e152f870b73352e7b5523e437243fec0c758c9e9",
+          "Format": "app bundle with Mach-O thin (arm64)",
+          "Identifier": "com.openai.codex.helper",
+          "Runtime Version": "26.5.0",
+          "TeamIdentifier": "2DC432GLL2"
+        },
+        "metadata_exit_code": 0,
+        "state": "observed",
+        "verification_performed": false
+      },
+      "size_bytes": 87520
+    },
+    "Contents/Frameworks/Codex Framework.framework/Versions/157.0.8103.39/Helpers/Codex (Renderer).app/Contents/Info.plist": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_plist"
+      ],
+      "mode": "0o644",
+      "plist": {
+        "CFBundleDisplayName": "Codex (Renderer)",
+        "CFBundleExecutable": "Codex (Renderer)",
+        "CFBundleIdentifier": "com.openai.codex.helper.renderer",
+        "CFBundleName": "Codex",
+        "CFBundleShortVersionString": "157.0.8103.39",
+        "CFBundleVersion": "8103.39",
+        "LSMinimumSystemVersion": "13.0",
+        "LSUIElement": "1"
+      },
+      "sha256": "f3936747c088bfb039590d39403eb26d01c7e49bd102805e6813e48192a40528",
+      "size_bytes": 1498
+    },
+    "Contents/Frameworks/Codex Framework.framework/Versions/157.0.8103.39/Helpers/Codex (Renderer).app/Contents/MacOS/Codex (Renderer)": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_executable"
+      ],
+      "mode": "0o755",
+      "sha256": "6fa9b10ec4873a4a8cfe1567b16fc7dd25edccfda9a1d54a2614a3a7b33aecdd",
+      "signing": {
+        "entitlements": {
+          "com.apple.security.app-sandbox": false,
+          "com.apple.security.application-groups": [
+            "2DC432GLL2.com.openai.codex.notifications",
+            "2DC432GLL2.com.openai.sky.CUAService"
+          ],
+          "com.apple.security.automation.apple-events": true,
+          "com.apple.security.cs.allow-jit": true,
+          "com.apple.security.cs.allow-unsigned-executable-memory": true,
+          "com.apple.security.device.audio-input": true,
+          "com.apple.security.device.camera": true,
+          "com.apple.security.files.user-selected.read-write": true,
+          "com.apple.security.network.client": true,
+          "com.apple.security.personal-information.calendars": true
+        },
+        "entitlements_exit_code": 0,
+        "metadata": {
+          "Authority": [
+            "(unavailable)"
+          ],
+          "CDHash": "58e6e20d712da96414af10de7800498b545d1bb8",
+          "Format": "app bundle with Mach-O thin (arm64)",
+          "Identifier": "com.openai.codex.helper.renderer",
+          "Runtime Version": "26.5.0",
+          "TeamIdentifier": "2DC432GLL2"
+        },
+        "metadata_exit_code": 0,
+        "state": "observed",
+        "verification_performed": false
+      },
+      "size_bytes": 87520
+    },
+    "Contents/Frameworks/Codex Framework.framework/Versions/157.0.8103.39/Helpers/Codex (Service).app/Contents/Info.plist": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_plist"
+      ],
+      "mode": "0o644",
+      "plist": {
+        "CFBundleDisplayName": "Codex (Service)",
+        "CFBundleExecutable": "Codex (Service)",
+        "CFBundleIdentifier": "com.openai.codex.helper",
+        "CFBundleName": "Codex",
+        "CFBundleShortVersionString": "157.0.8103.39",
+        "CFBundleVersion": "8103.39",
+        "LSMinimumSystemVersion": "13.0",
+        "LSUIElement": "1"
+      },
+      "sha256": "0bcde1643650245c87f8a7c059a9e28ecc1fe48f5c77a35396c0594e0e948ff0",
+      "size_bytes": 1487
+    },
+    "Contents/Frameworks/Codex Framework.framework/Versions/157.0.8103.39/Helpers/Codex (Service).app/Contents/MacOS/Codex (Service)": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_executable"
+      ],
+      "mode": "0o755",
+      "sha256": "5c95f21cccbd8523a2bad8fea1fa7b98a31c60e7da3c8f6c1e932859fbfd469e",
+      "signing": {
+        "entitlements": {
+          "com.apple.security.app-sandbox": false,
+          "com.apple.security.application-groups": [
+            "2DC432GLL2.com.openai.codex.notifications",
+            "2DC432GLL2.com.openai.sky.CUAService"
+          ],
+          "com.apple.security.automation.apple-events": true,
+          "com.apple.security.cs.allow-jit": true,
+          "com.apple.security.cs.allow-unsigned-executable-memory": true,
+          "com.apple.security.cs.disable-library-validation": true,
+          "com.apple.security.device.audio-input": true,
+          "com.apple.security.device.camera": true,
+          "com.apple.security.files.user-selected.read-write": true,
+          "com.apple.security.network.client": true,
+          "com.apple.security.personal-information.calendars": true
+        },
+        "entitlements_exit_code": 0,
+        "metadata": {
+          "Authority": [
+            "(unavailable)"
+          ],
+          "CDHash": "f469fc72239ba7d744c95810e115aa22693fa975",
+          "Format": "app bundle with Mach-O thin (arm64)",
+          "Identifier": "com.openai.codex.helper",
+          "Runtime Version": "26.5.0",
+          "TeamIdentifier": "2DC432GLL2"
+        },
+        "metadata_exit_code": 0,
+        "state": "observed",
+        "verification_performed": false
+      },
+      "size_bytes": 87520
+    },
+    "Contents/Frameworks/Codex Framework.framework/Versions/157.0.8103.39/Resources/Info.plist": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_plist"
+      ],
+      "mode": "0o644",
+      "plist": {
+        "CFBundleExecutable": "Codex Framework",
+        "CFBundleIdentifier": "com.openai.codex.framework",
+        "CFBundleShortVersionString": "157.0.8103.39",
+        "CFBundleVersion": "8103.39"
+      },
+      "sha256": "201e743ce8a0ad792750cdc1d6bb915a86bbb973f5301545b81f25bdd832d32e",
+      "size_bytes": 1066
+    },
+    "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/Info.plist": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_plist"
+      ],
+      "mode": "0o644",
+      "plist": {
+        "CFBundleExecutable": "Sparkle",
+        "CFBundleIdentifier": "org.sparkle-project.Sparkle",
+        "CFBundleName": "Sparkle",
+        "CFBundleShortVersionString": "2.9.1",
+        "CFBundleVersion": "2054",
+        "LSMinimumSystemVersion": "12.0"
+      },
+      "sha256": "acd6fcd92131b9d76929e47195ba2e9b4deaf88f8ec13b39ea69d74e1d589ded",
+      "size_bytes": 1344
+    },
+    "Contents/Frameworks/Sparkle.framework/Versions/B/Sparkle": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "framework_executable"
+      ],
+      "mode": "0o755",
+      "sha256": "0b287ae0388e98a18088703d3aa3a5bc1819f31a33c1faafd2e9ef5e28735441",
+      "signing": {
+        "entitlements": {},
+        "entitlements_exit_code": 0,
+        "metadata": {
+          "Authority": [
+            "(unavailable)"
+          ],
+          "CDHash": "6dd641f8d1629f4efcdcc4580f9a5992ca9dff8c",
+          "Format": "bundle with Mach-O universal (x86_64 arm64)",
+          "Identifier": "org.sparkle-project.Sparkle",
+          "Runtime Version": "27.0.0",
+          "TeamIdentifier": "2DC432GLL2"
+        },
+        "metadata_exit_code": 0,
+        "state": "observed",
+        "verification_performed": false
+      },
+      "size_bytes": 959584
+    },
+    "Contents/Frameworks/Sparkle.framework/Versions/B/Updater.app/Contents/Info.plist": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_plist"
+      ],
+      "mode": "0o644",
+      "plist": {
+        "CFBundleExecutable": "Updater",
+        "CFBundleIdentifier": "org.sparkle-project.Sparkle.Updater",
+        "CFBundleName": "Updater",
+        "CFBundleShortVersionString": "2.9.1",
+        "CFBundleVersion": "2054",
+        "LSMinimumSystemVersion": "12.0",
+        "LSUIElement": "1"
+      },
+      "sha256": "3eea36f8c2365d1805b55b543b32bf792724f24cc2dcd0ab0619387ffb419209",
+      "size_bytes": 2403
+    },
+    "Contents/Frameworks/Sparkle.framework/Versions/B/Updater.app/Contents/MacOS/Updater": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_executable"
+      ],
+      "mode": "0o755",
+      "sha256": "f60b2ecd9a8584e391e24f97056050937cde08e9251e31c7b2d2afcfed14d92d",
+      "signing": {
+        "entitlements": {
+          "com.apple.security.app-sandbox": false,
+          "com.apple.security.application-groups": [
+            "2DC432GLL2.com.openai.codex.notifications",
+            "2DC432GLL2.com.openai.sky.CUAService"
+          ],
+          "com.apple.security.automation.apple-events": true,
+          "com.apple.security.cs.allow-jit": true,
+          "com.apple.security.cs.allow-unsigned-executable-memory": true,
+          "com.apple.security.device.audio-input": true,
+          "com.apple.security.device.camera": true,
+          "com.apple.security.files.user-selected.read-write": true,
+          "com.apple.security.network.client": true,
+          "com.apple.security.personal-information.calendars": true
+        },
+        "entitlements_exit_code": 0,
+        "metadata": {
+          "Authority": [
+            "(unavailable)"
+          ],
+          "CDHash": "2c4c2e60bd90fef8a653fb2a6ac2d7bcccab2b6b",
+          "Format": "app bundle with Mach-O universal (x86_64 arm64)",
+          "Identifier": "org.sparkle-project.Sparkle.Updater",
+          "Runtime Version": "27.0.0",
+          "TeamIdentifier": "2DC432GLL2"
+        },
+        "metadata_exit_code": 0,
+        "state": "observed",
+        "verification_performed": false
+      },
+      "size_bytes": 306000
+    },
+    "Contents/Frameworks/Sparkle.framework/Versions/B/XPCServices/Downloader.xpc/Contents/Info.plist": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_plist"
+      ],
+      "mode": "0o644",
+      "plist": {
+        "CFBundleExecutable": "Downloader",
+        "CFBundleIdentifier": "org.sparkle-project.DownloaderService",
+        "CFBundleName": "Downloader",
+        "CFBundleShortVersionString": "2.9.1",
+        "CFBundleVersion": "2054",
+        "LSMinimumSystemVersion": "12.0",
+        "NSAppTransportSecurity": {
+          "NSAllowsArbitraryLoads": false
+        }
+      },
+      "sha256": "0fe36b6c14c608730f2a20a117fa8a0a0f64a72c3de0d3c5957febebf5ff1430",
+      "size_bytes": 1720
+    },
+    "Contents/Frameworks/Sparkle.framework/Versions/B/XPCServices/Downloader.xpc/Contents/MacOS/Downloader": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_executable"
+      ],
+      "mode": "0o755",
+      "sha256": "83b04c9b077e5a2c02909117e6df76c96c0581eadce5eee5047498411943e668",
+      "signing": {
+        "entitlements": {
+          "com.apple.security.app-sandbox": false,
+          "com.apple.security.application-groups": [
+            "2DC432GLL2.com.openai.codex.notifications",
+            "2DC432GLL2.com.openai.sky.CUAService"
+          ],
+          "com.apple.security.automation.apple-events": true,
+          "com.apple.security.cs.allow-jit": true,
+          "com.apple.security.cs.allow-unsigned-executable-memory": true,
+          "com.apple.security.device.audio-input": true,
+          "com.apple.security.device.camera": true,
+          "com.apple.security.files.user-selected.read-write": true,
+          "com.apple.security.network.client": true,
+          "com.apple.security.personal-information.calendars": true
+        },
+        "entitlements_exit_code": 0,
+        "metadata": {
+          "Authority": [
+            "(unavailable)"
+          ],
+          "CDHash": "ed4e31455925f8aacf65d7f4d95992e9c2714b2f",
+          "Format": "bundle with Mach-O universal (x86_64 arm64)",
+          "Identifier": "org.sparkle-project.DownloaderService",
+          "Runtime Version": "27.0.0",
+          "TeamIdentifier": "2DC432GLL2"
+        },
+        "metadata_exit_code": 0,
+        "state": "observed",
+        "verification_performed": false
+      },
+      "size_bytes": 188192
+    },
+    "Contents/Frameworks/Sparkle.framework/Versions/B/XPCServices/Installer.xpc/Contents/Info.plist": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_plist"
+      ],
+      "mode": "0o644",
+      "plist": {
+        "CFBundleExecutable": "Installer",
+        "CFBundleIdentifier": "org.sparkle-project.InstallerLauncher",
+        "CFBundleName": "Installer",
+        "CFBundleShortVersionString": "2.9.1",
+        "CFBundleVersion": "2054",
+        "LSMinimumSystemVersion": "12.0"
+      },
+      "sha256": "4010a3f39b6fa25612595e257e89967aee0f39f146c979e8a3519e6bb3df6920",
+      "size_bytes": 1608
+    },
+    "Contents/Frameworks/Sparkle.framework/Versions/B/XPCServices/Installer.xpc/Contents/MacOS/Installer": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_executable"
+      ],
+      "mode": "0o755",
+      "sha256": "8105d274fb8a67e8f6880e032601fdc14e862ad419fe0433d5b00aa29db89069",
+      "signing": {
+        "entitlements": {
+          "com.apple.security.app-sandbox": false,
+          "com.apple.security.application-groups": [
+            "2DC432GLL2.com.openai.codex.notifications",
+            "2DC432GLL2.com.openai.sky.CUAService"
+          ],
+          "com.apple.security.automation.apple-events": true,
+          "com.apple.security.cs.allow-jit": true,
+          "com.apple.security.cs.allow-unsigned-executable-memory": true,
+          "com.apple.security.device.audio-input": true,
+          "com.apple.security.device.camera": true,
+          "com.apple.security.files.user-selected.read-write": true,
+          "com.apple.security.network.client": true,
+          "com.apple.security.personal-information.calendars": true
+        },
+        "entitlements_exit_code": 0,
+        "metadata": {
+          "Authority": [
+            "(unavailable)"
+          ],
+          "CDHash": "f5c218a2255de7cea96c0c13b1ea94abb2881d1a",
+          "Format": "bundle with Mach-O universal (x86_64 arm64)",
+          "Identifier": "org.sparkle-project.InstallerLauncher",
+          "Runtime Version": "27.0.0",
+          "TeamIdentifier": "2DC432GLL2"
+        },
+        "metadata_exit_code": 0,
+        "state": "observed",
+        "verification_performed": false
+      },
+      "size_bytes": 223328
+    },
+    "Contents/Info.plist": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_plist"
+      ],
+      "mode": "0o644",
+      "plist": {
+        "CFBundleDisplayName": "ChatGPT",
+        "CFBundleDocumentTypes": [
+          {
+            "CFBundleTypeName": "Folder",
+            "CFBundleTypeRole": "Viewer",
+            "LSItemContentTypes": [
+              "public.folder"
+            ]
+          },
+          {
+            "CFBundleTypeExtensions": [
+              "csv"
+            ],
+            "CFBundleTypeMIMETypes": [
+              "text/csv"
+            ],
+            "CFBundleTypeName": "CSV",
+            "CFBundleTypeRole": "Viewer",
+            "LSHandlerRank": "Alternate",
+            "LSItemContentTypes": [
+              "public.comma-separated-values-text"
+            ]
+          },
+          {
+            "CFBundleTypeExtensions": [
+              "docx"
+            ],
+            "CFBundleTypeMIMETypes": [
+              "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+            ],
+            "CFBundleTypeName": "DOCX",
+            "CFBundleTypeRole": "Viewer",
+            "LSHandlerRank": "Alternate"
+          },
+          {
+            "CFBundleTypeExtensions": [
+              "pptx"
+            ],
+            "CFBundleTypeMIMETypes": [
+              "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+            ],
+            "CFBundleTypeName": "PPTX",
+            "CFBundleTypeRole": "Viewer",
+            "LSHandlerRank": "Alternate"
+          },
+          {
+            "CFBundleTypeExtensions": [
+              "tsv"
+            ],
+            "CFBundleTypeMIMETypes": [
+              "text/tab-separated-values"
+            ],
+            "CFBundleTypeName": "TSV",
+            "CFBundleTypeRole": "Viewer",
+            "LSHandlerRank": "Alternate",
+            "LSItemContentTypes": [
+              "public.tab-separated-values-text"
+            ]
+          },
+          {
+            "CFBundleTypeExtensions": [
+              "xls"
+            ],
+            "CFBundleTypeMIMETypes": [
+              "application/vnd.ms-excel"
+            ],
+            "CFBundleTypeName": "XLS",
+            "CFBundleTypeRole": "Viewer",
+            "LSHandlerRank": "Alternate"
+          },
+          {
+            "CFBundleTypeExtensions": [
+              "xlsm"
+            ],
+            "CFBundleTypeMIMETypes": [
+              "application/vnd.ms-excel.sheet.macroEnabled.12"
+            ],
+            "CFBundleTypeName": "XLSM",
+            "CFBundleTypeRole": "Viewer",
+            "LSHandlerRank": "Alternate"
+          },
+          {
+            "CFBundleTypeExtensions": [
+              "xlsx"
+            ],
+            "CFBundleTypeMIMETypes": [
+              "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+            ],
+            "CFBundleTypeName": "XLSX",
+            "CFBundleTypeRole": "Viewer",
+            "LSHandlerRank": "Alternate"
+          },
+          {
+            "CFBundleTypeExtensions": [
+              "skill"
+            ],
+            "CFBundleTypeMIMETypes": [
+              "application/vnd.openai.codex.skill"
+            ],
+            "CFBundleTypeName": "ChatGPT Skill",
+            "CFBundleTypeRole": "Viewer",
+            "LSHandlerRank": "Owner",
+            "LSItemContentTypes": [
+              "com.openai.codex.skill"
+            ]
+          },
+          {
+            "CFBundleTypeName": "Document",
+            "CFBundleTypeRole": "Viewer",
+            "LSHandlerRank": "Alternate",
+            "LSItemContentTypes": [
+              "public.data"
+            ]
+          }
+        ],
+        "CFBundleExecutable": "ChatGPT",
+        "CFBundleIdentifier": "com.openai.codex",
+        "CFBundleName": "ChatGPT",
+        "CFBundleShortVersionString": "26.1103.60933",
+        "CFBundleURLTypes": [
+          {
+            "CFBundleURLName": "ChatGPT",
+            "CFBundleURLSchemes": [
+              "codex",
+              "http",
+              "https"
+            ]
+          }
+        ],
+        "CFBundleVersion": "25894",
+        "ElectronAsarIntegrity": {
+          "Resources/app.asar": {
+            "algorithm": "SHA256",
+            "hash": "a6bcf93d3fad53588c2b1639b2c3a5e13b6d9f53168e2e1eb76083f17703e93d"
+          }
+        },
+        "LSMinimumSystemVersion": "13.0",
+        "NSAppTransportSecurity": {
+          "NSAllowsArbitraryLoads": true
+        },
+        "NSAppleEventsUsageDescription": "ChatGPT uses Apple Events to control Mac apps on your behalf",
+        "NSAudioCaptureUsageDescription": "This app needs access to audio capture",
+        "NSCalendarsFullAccessUsageDescription": "Allow access so that ChatGPT can read and update your calendar events when you ask.",
+        "NSCalendarsUsageDescription": "Allow access so that ChatGPT can read and update your calendar events when you ask.",
+        "NSCameraUsageDescription": "ChatGPT needs access to your camera for video input",
+        "NSDesktopFolderUsageDescription": "ChatGPT needs access to your Desktop for the task you selected",
+        "NSLocationUsageDescription": "ChatGPT uses your location to provide location-based answers",
+        "NSMicrophoneUsageDescription": "ChatGPT needs access to your microphone for voice input",
+        "NSRemindersFullAccessUsageDescription": "Allow access so that ChatGPT can read and update your reminders when you ask.",
+        "NSRemindersUsageDescription": "Allow access so that ChatGPT can read and update your reminders when you ask.",
+        "SUPublicEDKey": "mNfr1v9t63BfgDtlw4C8lRvSY6uMggIXABDOCi3tS6k="
+      },
+      "sha256": "88d88aff21013226bd7b5610eda8856df0dcd008dd4c96cdd0515b755140a68b",
+      "size_bytes": 20787
+    },
+    "Contents/MacOS/ChatGPT": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_executable"
+      ],
+      "mode": "0o755",
+      "sha256": "75d42141ee272cd9a3905b04a2009318fa89730becfd8e8af840f5d994f907ad",
+      "signing": {
+        "entitlements": {
+          "com.apple.application-identifier": "2DC432GLL2.com.openai.codex",
+          "com.apple.developer.aps-environment": "production",
+          "com.apple.developer.associated-domains": [
+            "applinks:chatgpt.com"
+          ],
+          "com.apple.developer.team-identifier": "2DC432GLL2",
+          "com.apple.developer.usernotifications.communication": true,
+          "com.apple.security.app-sandbox": false,
+          "com.apple.security.application-groups": [
+            "2DC432GLL2.com.openai.codex.notifications",
+            "2DC432GLL2.com.openai.sky.CUAService"
+          ],
+          "com.apple.security.automation.apple-events": true,
+          "com.apple.security.cs.allow-jit": true,
+          "com.apple.security.cs.allow-unsigned-executable-memory": true,
+          "com.apple.security.device.audio-input": true,
+          "com.apple.security.device.camera": true,
+          "com.apple.security.files.user-selected.read-write": true,
+          "com.apple.security.network.client": true,
+          "com.apple.security.personal-information.calendars": true,
+          "keychain-access-groups": [
+            "2DC432GLL2.*",
+            "2DC432GLL2.com.openai.shared"
+          ]
+        },
+        "entitlements_exit_code": 0,
+        "metadata": {
+          "Authority": [
+            "(unavailable)"
+          ],
+          "CDHash": "699937d138fa785a0e6c724bbc5d01f243f4e4a4",
+          "Format": "app bundle with Mach-O thin (arm64)",
+          "Identifier": "com.openai.codex",
+          "Runtime Version": "26.5.0",
+          "TeamIdentifier": "2DC432GLL2"
+        },
+        "metadata_exit_code": 0,
+        "state": "observed",
+        "verification_performed": false
+      },
+      "size_bytes": 71008
+    },
+    "Contents/PlugIns/CodexDockTilePlugin.docktileplugin/Contents/Info.plist": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_plist"
+      ],
+      "mode": "0o644",
+      "plist": {
+        "CFBundleDisplayName": "Codex Dock Tile Plugin",
+        "CFBundleExecutable": "CodexDockTilePlugin",
+        "CFBundleIdentifier": "com.openai.codex.dock-tile-plugin",
+        "CFBundleName": "CodexDockTilePlugin",
+        "CFBundleShortVersionString": "1.0",
+        "CFBundleVersion": "1",
+        "LSMinimumSystemVersion": "13.0"
+      },
+      "sha256": "03377a5e9c51a4a3f8273a22f82d652e0736bee7e99d90f2690fd0f99fa99b7b",
+      "size_bytes": 989
+    },
+    "Contents/PlugIns/CodexDockTilePlugin.docktileplugin/Contents/MacOS/CodexDockTilePlugin": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_executable"
+      ],
+      "mode": "0o755",
+      "sha256": "799375a8532f9ba1234d427b58f82e7998d0574963f20b6ed7d8a2dc93246ca7",
+      "signing": {
+        "entitlements": {},
+        "entitlements_exit_code": 0,
+        "metadata": {
+          "Authority": [
+            "(unavailable)"
+          ],
+          "CDHash": "b0fcdb1ae2bea38d5bebf88f61de16d3c53cd46f",
+          "Format": "bundle with Mach-O thin (arm64)",
+          "Identifier": "com.openai.codex.dock-tile-plugin",
+          "Runtime Version": "26.5.0",
+          "TeamIdentifier": "2DC432GLL2"
+        },
+        "metadata_exit_code": 0,
+        "state": "observed",
+        "verification_performed": false
+      },
+      "size_bytes": 97872
+    },
+    "Contents/Resources/app.asar": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "asar_archive"
+      ],
+      "mode": "0o644",
+      "sha256": "a77588b2dcfa9b394d722dd8c2c8b13d3a09bacd49c839cc715245742dba6048",
+      "size_bytes": 761294031
+    },
+    "Contents/Resources/app.asar.unpacked/node_modules/@worklouder/device-kit-oai/node_modules/@worklouder/wl-device-kit/dist/native/darwin/permissions.node": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "native_module"
+      ],
+      "mode": "0o644",
+      "sha256": "3993902ea7f7dd89ed8594d55b1425981e1a8fa239e5589ceb50c630825da419",
+      "signing": {
+        "entitlements": {},
+        "entitlements_exit_code": 0,
+        "metadata": {
+          "Authority": [
+            "(unavailable)"
+          ],
+          "CDHash": "41154ddcd5c9ed23a1301c046ae96fd6fbce8faf",
+          "Format": "Mach-O universal (x86_64 arm64)",
+          "Identifier": "permissions.node",
+          "Runtime Version": "15.5.0",
+          "Sealed Resources": "none",
+          "TeamIdentifier": "2DC432GLL2"
+        },
+        "metadata_exit_code": 0,
+        "state": "observed",
+        "verification_performed": false
+      },
+      "size_bytes": 136656
+    },
+    "Contents/Resources/app.asar.unpacked/node_modules/@worklouder/device-kit-oai/node_modules/@worklouder/wl-device-kit/node_modules/node-hid/prebuilds/HID-darwin-arm64/node-napi-v4.node": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "native_module"
+      ],
+      "mode": "0o644",
+      "sha256": "a8229cf5ce2bc493d102da45222da7b3b16fc1e9d90a702b4e8214382b676f56",
+      "signing": {
+        "entitlements": {},
+        "entitlements_exit_code": 0,
+        "metadata": {
+          "Authority": [
+            "(unavailable)"
+          ],
+          "CDHash": "c4bf9a43d3c669f18f09383132fcf73338d11715",
+          "Format": "Mach-O thin (arm64)",
+          "Identifier": "node-napi-v4.node",
+          "Runtime Version": "26.5.0",
+          "Sealed Resources": "none",
+          "TeamIdentifier": "2DC432GLL2"
+        },
+        "metadata_exit_code": 0,
+        "state": "observed",
+        "verification_performed": false
+      },
+      "size_bytes": 239584
+    },
+    "Contents/Resources/app.asar.unpacked/node_modules/@worklouder/device-kit-oai/node_modules/@worklouder/wl-device-kit/node_modules/serialport/node_modules/@serialport/bindings-cpp/prebuilds/darwin-x64+arm64/node.napi.node": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "native_module"
+      ],
+      "mode": "0o644",
+      "sha256": "8d6ed6c7a4d74f6b43d1924fa65e7230adf7967e3ad17c23032724f14d379ddb",
+      "signing": {
+        "entitlements": {},
+        "entitlements_exit_code": 0,
+        "metadata": {
+          "Authority": [
+            "(unavailable)"
+          ],
+          "CDHash": "52a2554d34eb42f4890da7df03a8030072d9f45b",
+          "Format": "Mach-O universal (x86_64 arm64)",
+          "Identifier": "bindings.node",
+          "Runtime Version": "12.1.0",
+          "Sealed Resources": "none",
+          "TeamIdentifier": "2DC432GLL2"
+        },
+        "metadata_exit_code": 0,
+        "state": "observed",
+        "verification_performed": false
+      },
+      "size_bytes": 323648
+    },
+    "Contents/Resources/app.asar.unpacked/node_modules/better-sqlite3/build/Release/better_sqlite3.node": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "native_module"
+      ],
+      "mode": "0o755",
+      "sha256": "1d40b77f6ba22d685850c5b60662fe5675839c03c623150759fed6e68478df54",
+      "signing": {
+        "entitlements": {},
+        "entitlements_exit_code": 0,
+        "metadata": {
+          "Authority": [
+            "(unavailable)"
+          ],
+          "CDHash": "e4f553fc5a620296774be730aa037491d02a6474",
+          "Format": "Mach-O thin (arm64)",
+          "Identifier": "better_sqlite3.node",
+          "Runtime Version": "26.5.0",
+          "Sealed Resources": "none",
+          "TeamIdentifier": "2DC432GLL2"
+        },
+        "metadata_exit_code": 0,
+        "state": "observed",
+        "verification_performed": false
+      },
+      "size_bytes": 1880032
+    },
+    "Contents/Resources/app.asar.unpacked/node_modules/node-pty/build/Release/pty.node": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "native_module"
+      ],
+      "mode": "0o755",
+      "sha256": "0c90201d89b8e01deed86880f711b750b71046e56d97c9593f42a46a8eb359c9",
+      "signing": {
+        "entitlements": {},
+        "entitlements_exit_code": 0,
+        "metadata": {
+          "Authority": [
+            "(unavailable)"
+          ],
+          "CDHash": "16c12291309d0aa5db1a4c57fbd0ef19955b0db8",
+          "Format": "Mach-O thin (arm64)",
+          "Identifier": "pty.node",
+          "Runtime Version": "26.5.0",
+          "Sealed Resources": "none",
+          "TeamIdentifier": "2DC432GLL2"
+        },
+        "metadata_exit_code": 0,
+        "state": "observed",
+        "verification_performed": false
+      },
+      "size_bytes": 101344
+    },
+    "Contents/Resources/app.asar.unpacked/node_modules/node-pty/build/Release/pty.node.dSYM/Contents/Info.plist": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_plist"
+      ],
+      "mode": "0o644",
+      "plist": {
+        "CFBundleIdentifier": "com.apple.xcode.dsym.com.openai.codex",
+        "CFBundleShortVersionString": "26.1103.60933",
+        "CFBundleVersion": "25894"
+      },
+      "sha256": "47062c601f94507bb0f20909838380983f73efed117caf9f8b6e9e82b20e0c23",
+      "size_bytes": 659
+    },
+    "Contents/Resources/app.asar.unpacked/node_modules/node-pty/build/Release/pty.node.dSYM/Contents/Resources/DWARF/pty.node": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "native_module"
+      ],
+      "mode": "0o644",
+      "sha256": "74c834afb94976391adec132be326cb4e5e20bcdeef596feaebe478720895a13",
+      "signing": {
+        "entitlements": null,
+        "entitlements_diagnostics": [
+          "<BUNDLE>/Contents/Resources/app.asar.unpacked/node_modules/node-pty/build/Release/pty.node.dSYM/Contents/Resources/DWARF/pty.node: code object is not signed at all"
+        ],
+        "entitlements_error": "<BUNDLE>/Contents/Resources/app.asar.unpacked/node_modules/node-pty/build/Release/pty.node.dSYM/Contents/Resources/DWARF/pty.node: code object is not signed at all",
+        "entitlements_exit_code": 1,
+        "metadata": {},
+        "metadata_error": "<BUNDLE>/Contents/Resources/app.asar.unpacked/node_modules/node-pty/build/Release/pty.node.dSYM/Contents/Resources/DWARF/pty.node: code object is not signed at all",
+        "metadata_exit_code": 1,
+        "state": "observed",
+        "verification_performed": false
+      },
+      "size_bytes": 12446
+    },
+    "Contents/Resources/app.asar.unpacked/node_modules/objc-js/prebuilds/darwin-arm64/node.napi.armv8.node": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "native_module"
+      ],
+      "mode": "0o755",
+      "sha256": "40b64b3641b115b6ae87d83ef1f3c5594d0a261876041e96e4c38af088c400c2",
+      "signing": {
+        "entitlements": {},
+        "entitlements_exit_code": 0,
+        "metadata": {
+          "Authority": [
+            "(unavailable)"
+          ],
+          "CDHash": "507c3b2739d1a93ad795145075e86a355c543209",
+          "Format": "Mach-O thin (arm64)",
+          "Identifier": "nobjc_native.node",
+          "Runtime Version": "26.2.0",
+          "Sealed Resources": "none",
+          "TeamIdentifier": "2DC432GLL2"
+        },
+        "metadata_exit_code": 0,
+        "state": "observed",
+        "verification_performed": false
+      },
+      "size_bytes": 641040
+    },
+    "Contents/Resources/codex-cli/CodexCLI.app/Contents/Info.plist": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_plist"
+      ],
+      "mode": "0o644",
+      "plist": {
+        "CFBundleDisplayName": "ChatGPT",
+        "CFBundleExecutable": "codex",
+        "CFBundleIdentifier": "com.openai.codex.cli",
+        "CFBundleName": "ChatGPT",
+        "CFBundleVersion": "1"
+      },
+      "sha256": "c40b0e6b87b94ef5a232ab8312678c5db2156428f57c3f3d6c32525373be7f59",
+      "size_bytes": 525
+    },
+    "Contents/Resources/codex-cli/CodexCLI.app/Contents/MacOS/codex": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_executable"
+      ],
+      "mode": "0o755",
+      "sha256": "a636331ed87605efc4cf84028ac2884a75363f9d10ead63cffb57ea0016d486e",
+      "signing": {
+        "entitlements": {
+          "com.apple.application-identifier": "2DC432GLL2.com.openai.codex.cli",
+          "com.apple.developer.team-identifier": "2DC432GLL2",
+          "com.apple.security.cs.allow-jit": true,
+          "com.apple.security.cs.allow-unsigned-executable-memory": true,
+          "keychain-access-groups": [
+            "2DC432GLL2.com.openai.codex.cli"
+          ]
+        },
+        "entitlements_exit_code": 0,
+        "metadata": {
+          "Authority": [
+            "(unavailable)"
+          ],
+          "CDHash": "a11ce3314a7adeaca2a1283051ee2f0b41070d5a",
+          "Format": "app bundle with Mach-O thin (arm64)",
+          "Identifier": "codex",
+          "Runtime Version": "15.5.0",
+          "TeamIdentifier": "2DC432GLL2"
+        },
+        "metadata_exit_code": 0,
+        "state": "observed",
+        "verification_performed": false
+      },
+      "size_bytes": 270814880
+    },
+    "Contents/Resources/cua_node/bin/node": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundled_runtime"
+      ],
+      "mode": "0o755",
+      "sha256": "2d2d8fe6175eec40b257e69dd5b3109316b95471a45931ab5a02b6d9872bb32f",
+      "signing": {
+        "entitlements": {
+          "com.apple.security.app-sandbox": false,
+          "com.apple.security.application-groups": [
+            "2DC432GLL2.com.openai.codex.notifications",
+            "2DC432GLL2.com.openai.sky.CUAService"
+          ],
+          "com.apple.security.automation.apple-events": true,
+          "com.apple.security.cs.allow-jit": true,
+          "com.apple.security.cs.allow-unsigned-executable-memory": true,
+          "com.apple.security.device.audio-input": true,
+          "com.apple.security.device.camera": true,
+          "com.apple.security.files.user-selected.read-write": true,
+          "com.apple.security.network.client": true,
+          "com.apple.security.personal-information.calendars": true
+        },
+        "entitlements_exit_code": 0,
+        "metadata": {
+          "Authority": [
+            "(unavailable)"
+          ],
+          "CDHash": "b809e961ed9f9f42966f7fcd9038946ff63c33f1",
+          "Format": "Mach-O thin (arm64)",
+          "Identifier": "node",
+          "Runtime Version": "26.2.0",
+          "Sealed Resources": "none",
+          "TeamIdentifier": "2DC432GLL2"
+        },
+        "metadata_exit_code": 0,
+        "state": "observed",
+        "verification_performed": false
+      },
+      "size_bytes": 126828160
+    },
+    "Contents/Resources/cua_node/lib/node_modules/@img/colour/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "engines": {
+          "node": ">=18"
+        },
+        "main": "index.cjs",
+        "name": "@img/colour",
+        "type": "commonjs",
+        "version": "1.1.0"
+      },
+      "sha256": "bc38c5097693ed53b91c32f35fb0a52569736c7854ba2eb6d080f3252071f75c",
+      "size_bytes": 1515
+    },
+    "Contents/Resources/cua_node/lib/node_modules/@img/sharp-darwin-arm64/lib/sharp-darwin-arm64-0.35.5.node": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "native_module"
+      ],
+      "mode": "0o644",
+      "sha256": "8340f337ccfc7d00f6c29f1b1a1e48c311cf018b10f0343033403c037f7de5f4",
+      "signing": {
+        "entitlements": {},
+        "entitlements_exit_code": 0,
+        "metadata": {
+          "Authority": [
+            "(unavailable)"
+          ],
+          "CDHash": "14161a40e07f0f9d7816cfccf07946db62bb2dc2",
+          "Format": "Mach-O thin (arm64)",
+          "Identifier": "sharp-darwin-arm64-0.35.5.node",
+          "Runtime Version": "15.5.0",
+          "Sealed Resources": "none",
+          "TeamIdentifier": "2DC432GLL2"
+        },
+        "metadata_exit_code": 0,
+        "state": "observed",
+        "verification_performed": false
+      },
+      "size_bytes": 296368
+    },
+    "Contents/Resources/cua_node/lib/node_modules/@img/sharp-darwin-arm64/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "engines": {
+          "node": ">=20.9.0"
+        },
+        "name": "@img/sharp-darwin-arm64",
+        "optionalDependencies": {
+          "@img/sharp-libvips-darwin-arm64": "1.3.4"
+        },
+        "type": "commonjs",
+        "version": "0.35.5"
+      },
+      "sha256": "157996706c751e9a3608f35811f156238fa4ad1f367abfd4facec30883747f5e",
+      "size_bytes": 862
+    },
+    "Contents/Resources/cua_node/lib/node_modules/@img/sharp-libvips-darwin-arm64/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "name": "@img/sharp-libvips-darwin-arm64",
+        "type": "commonjs",
+        "version": "1.3.4"
+      },
+      "sha256": "394ecfe4e823ebf6ddc9f9b7155046aad1f0492300920323ddfb84cae85dbac0",
+      "size_bytes": 876
+    },
+    "Contents/Resources/cua_node/lib/node_modules/@oai/browser-desktop/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "dependencies": {
+          "classic-level": "3.0.0"
+        },
+        "name": "@oai/browser-desktop",
+        "type": "module",
+        "version": "0.1.1"
+      },
+      "sha256": "a7bfc13a4f9a8a22fd4a275adedf352e5f10ea57f8259301b905c3e997bc3b63",
+      "size_bytes": 308
+    },
+    "Contents/Resources/cua_node/lib/node_modules/@oai/cua-repl/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "dependencies": {},
+        "main": "dist/lib/js/oai_js_cua_repl/src/index.js",
+        "name": "@oai/cua-repl",
+        "type": "module",
+        "version": "0.1.3"
+      },
+      "sha256": "8fae8a470a8223f90766c027c2629c5cef0a27b99a3da321fbfec805dceb568c",
+      "size_bytes": 918
+    },
+    "Contents/Resources/cua_node/lib/node_modules/@oai/cua/dist/lib/js/oai_js_browser/dist/skill/node_modules/abstract-level/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "dependencies": {
+          "buffer": "^6.0.3",
+          "is-buffer": "^2.0.5",
+          "level-supports": "^6.2.0",
+          "level-transcoder": "^1.0.1",
+          "maybe-combine-errors": "^1.0.0",
+          "module-error": "^1.0.1"
+        },
+        "engines": {
+          "node": ">=18"
+        },
+        "main": "index.js",
+        "name": "abstract-level",
+        "version": "3.1.1"
+      },
+      "sha256": "e0e6b811be8993aef77f44163f33aa21dcf97cd535fb5aea9ac06bd44da440ac",
+      "size_bytes": 1716
+    },
+    "Contents/Resources/cua_node/lib/node_modules/@oai/cua/dist/lib/js/oai_js_browser/dist/skill/node_modules/classic-level/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "dependencies": {
+          "abstract-level": "^3.1.0",
+          "module-error": "^1.0.1",
+          "napi-macros": "^2.2.2",
+          "node-gyp-build": "^4.3.0"
+        },
+        "engines": {
+          "node": ">=18"
+        },
+        "main": "index.js",
+        "name": "classic-level",
+        "version": "3.0.0"
+      },
+      "sha256": "b554d432149434474c764e37e325a26e2e4b465cf632a842b77c90ead33433a5",
+      "size_bytes": 2454
+    },
+    "Contents/Resources/cua_node/lib/node_modules/@oai/cua/dist/lib/js/oai_js_browser/dist/skill/node_modules/classic-level/prebuilds/darwin-x64+arm64/classic-level.node": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "native_module"
+      ],
+      "mode": "0o644",
+      "sha256": "6c13b1ba71418e3384530623dcb81f0ef158f96cc91fa3b8a797e113b7c0766c",
+      "signing": {
+        "entitlements": {},
+        "entitlements_exit_code": 0,
+        "metadata": {
+          "Authority": [
+            "(unavailable)"
+          ],
+          "CDHash": "e43453d8964be852388f2f3806f4ec8f0de15533",
+          "Format": "Mach-O universal (x86_64 arm64)",
+          "Identifier": "classic_level.node",
+          "Runtime Version": "14.5.0",
+          "Sealed Resources": "none",
+          "TeamIdentifier": "2DC432GLL2"
+        },
+        "metadata_exit_code": 0,
+        "state": "observed",
+        "verification_performed": false
+      },
+      "size_bytes": 764016
+    },
+    "Contents/Resources/cua_node/lib/node_modules/@oai/cua/dist/lib/js/oai_js_browser/dist/skill/node_modules/is-buffer/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "dependencies": {},
+        "engines": {
+          "node": ">=4"
+        },
+        "main": "index.js",
+        "name": "is-buffer",
+        "version": "2.0.5"
+      },
+      "sha256": "79325587cb7a4e56a8bb43343b6cc98ebed94f36f79ec9f10baad9deef52bfda",
+      "size_bytes": 1365
+    },
+    "Contents/Resources/cua_node/lib/node_modules/@oai/cua/dist/lib/js/oai_js_browser/dist/skill/node_modules/level-supports/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "engines": {
+          "node": ">=16"
+        },
+        "name": "level-supports",
+        "version": "6.2.0"
+      },
+      "sha256": "e28afda1b6e9990914e78c4b275295a206185178e02f099b1a148f2c876b92d1",
+      "size_bytes": 1138
+    },
+    "Contents/Resources/cua_node/lib/node_modules/@oai/cua/dist/lib/js/oai_js_browser/dist/skill/node_modules/level-transcoder/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "dependencies": {
+          "buffer": "^6.0.3",
+          "module-error": "^1.0.1"
+        },
+        "engines": {
+          "node": ">=12"
+        },
+        "main": "index.js",
+        "name": "level-transcoder",
+        "version": "1.0.1"
+      },
+      "sha256": "84aaba1f3d5d18bd11be33a3e8cd81e8ea983f69e85bfe06f3a8fb5baa900db2",
+      "size_bytes": 1098
+    },
+    "Contents/Resources/cua_node/lib/node_modules/@oai/cua/dist/lib/js/oai_js_browser/dist/skill/node_modules/maybe-combine-errors/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "dependencies": {},
+        "engines": {
+          "node": ">=10"
+        },
+        "name": "maybe-combine-errors",
+        "version": "1.0.0"
+      },
+      "sha256": "49aa781553517b14ac9050a9150545cc84e9b2e147d3b9479b3f539415ad3d1d",
+      "size_bytes": 669
+    },
+    "Contents/Resources/cua_node/lib/node_modules/@oai/cua/dist/lib/js/oai_js_browser/dist/skill/node_modules/module-error/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "engines": {
+          "node": ">=10"
+        },
+        "name": "module-error",
+        "version": "1.0.2"
+      },
+      "sha256": "c6a284e744ee2286d321d0d2494e34e19ccabb028ce73ee5aa487a64a386de07",
+      "size_bytes": 853
+    },
+    "Contents/Resources/cua_node/lib/node_modules/@oai/cua/dist/lib/js/oai_js_browser/dist/skill/node_modules/napi-macros/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "dependencies": {},
+        "main": "index.js",
+        "name": "napi-macros",
+        "version": "2.2.2"
+      },
+      "sha256": "537220644cbe97fbd22ba01ce03b2f2922c703e941520c65702d1319ef312f70",
+      "size_bytes": 559
+    },
+    "Contents/Resources/cua_node/lib/node_modules/@oai/cua/dist/lib/js/oai_js_browser/dist/skill/node_modules/node-gyp-build/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "main": "index.js",
+        "name": "node-gyp-build",
+        "version": "4.8.4"
+      },
+      "sha256": "9e8def3fbf123e28aa1ca4b6aa557fba4e66eecf6e86d170b61ec1c7ed51305d",
+      "size_bytes": 1004
+    },
+    "Contents/Resources/cua_node/lib/node_modules/@oai/cua/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "dependencies": {},
+        "main": "dist/lib/js/oai_js_cua/src/index.js",
+        "name": "@oai/cua",
+        "type": "module",
+        "version": "0.2.6"
+      },
+      "sha256": "6ccd4c5f97bbf308e0bf071ef5d9d32619d168f5544f4b4dbc29388a103acc4a",
+      "size_bytes": 1060
+    },
+    "Contents/Resources/cua_node/lib/node_modules/@oai/sky/Codex Computer Use.app/Contents/Info.plist": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_plist"
+      ],
+      "mode": "0o644",
+      "plist": {
+        "CFBundleDisplayName": "ChatGPT Computer Use",
+        "CFBundleExecutable": "SkyComputerUseService",
+        "CFBundleIdentifier": "com.openai.sky.CUAService",
+        "CFBundleName": "Codex Computer Use",
+        "CFBundleShortVersionString": "26.1102.1001824",
+        "CFBundleVersion": "1001824",
+        "LSMinimumSystemVersion": "14.4",
+        "LSUIElement": true,
+        "NSAppleEventsUsageDescription": "By default, ChatGPT sends messages only after you approve the message and its recipients.",
+        "NSCalendarsFullAccessUsageDescription": "ChatGPT uses Calendar to read and manage your events.",
+        "NSContactsUsageDescription": "ChatGPT uses Contacts to show names and find phone numbers or email addresses for people you ask to message.",
+        "SUFeedURL": "https://oaisidekickupdates.blob.core.windows.net/mac/cua/alpha/appcast.xml",
+        "SUPublicEDKey": "5Yw9jMXMH6O3mJZmpFuQT6ECfC3ZKBfVjWUVMNrElRo="
+      },
+      "sha256": "afdcd423645523a82fd4edad76ad8c79486e4aab7e3f83af9a953c69e3c824c0",
+      "size_bytes": 2475
+    },
+    "Contents/Resources/cua_node/lib/node_modules/@oai/sky/Codex Computer Use.app/Contents/MacOS/SkyComputerUseService": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_executable"
+      ],
+      "mode": "0o755",
+      "sha256": "469500545c940ecb20541d71a979461ea6bd22e92b513a87fa57eab90cd1061a",
+      "signing": {
+        "entitlements": {
+          "com.apple.application-identifier": "2DC432GLL2.com.openai.sky.CUAService",
+          "com.apple.developer.team-identifier": "2DC432GLL2",
+          "com.apple.security.application-groups": [
+            "2DC432GLL2.com.openai.sky.CUAService"
+          ],
+          "com.apple.security.automation.apple-events": true,
+          "com.apple.security.personal-information.addressbook": true,
+          "com.apple.security.personal-information.calendars": true,
+          "keychain-access-groups": [
+            "2DC432GLL2.*"
+          ]
+        },
+        "entitlements_exit_code": 0,
+        "metadata": {
+          "Authority": [
+            "(unavailable)"
+          ],
+          "CDHash": "1d127a43dc7ffa326c56798c88eb9419fbd8822b",
+          "Format": "app bundle with Mach-O thin (arm64)",
+          "Identifier": "com.openai.sky.CUAService",
+          "Runtime Version": "26.1.0",
+          "TeamIdentifier": "2DC432GLL2"
+        },
+        "metadata_exit_code": 0,
+        "state": "observed",
+        "verification_performed": false
+      },
+      "size_bytes": 21633216
+    },
+    "Contents/Resources/cua_node/lib/node_modules/@oai/sky/Codex Computer Use.app/Contents/Resources/Package_Appshot.bundle/Contents/Info.plist": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_plist"
+      ],
+      "mode": "0o644",
+      "plist": {
+        "CFBundleIdentifier": "package.Appshot.resources",
+        "CFBundleName": "Package_Appshot",
+        "CFBundleShortVersionString": "26.1102.1001824",
+        "CFBundleVersion": "1001824",
+        "LSMinimumSystemVersion": "14.0"
+      },
+      "sha256": "9ea1c639f57483805dbe99c4fde56a700681376c9e8034f835826c1d721cbbbd",
+      "size_bytes": 1251
+    },
+    "Contents/Resources/cua_node/lib/node_modules/@oai/sky/Codex Computer Use.app/Contents/Resources/Package_ComputerUse.bundle/Contents/Info.plist": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_plist"
+      ],
+      "mode": "0o644",
+      "plist": {
+        "CFBundleIdentifier": "package.ComputerUse.resources",
+        "CFBundleName": "Package_ComputerUse",
+        "CFBundleShortVersionString": "26.1102.1001824",
+        "CFBundleVersion": "1001824",
+        "LSMinimumSystemVersion": "14.0"
+      },
+      "sha256": "adfb8c1b80e3e0f91093d36cda549a4776fb8ac6d7ea368f81ce13e8542f1175",
+      "size_bytes": 1259
+    },
+    "Contents/Resources/cua_node/lib/node_modules/@oai/sky/Codex Computer Use.app/Contents/Resources/Package_SkyPermissions.bundle/Contents/Info.plist": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_plist"
+      ],
+      "mode": "0o644",
+      "plist": {
+        "CFBundleIdentifier": "package.SkyPermissions.resources",
+        "CFBundleName": "Package_SkyPermissions",
+        "CFBundleShortVersionString": "26.1102.1001824",
+        "CFBundleVersion": "1001824",
+        "LSMinimumSystemVersion": "14.0"
+      },
+      "sha256": "8cacf2a8e531a440e1aec723cae234c572d82a104bdf06bf8eb6a56002e907b8",
+      "size_bytes": 1265
+    },
+    "Contents/Resources/cua_node/lib/node_modules/@oai/sky/Codex Computer Use.app/Contents/Resources/Package_SlimCore.bundle/Contents/Info.plist": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_plist"
+      ],
+      "mode": "0o644",
+      "plist": {
+        "CFBundleIdentifier": "package.SlimCore.resources",
+        "CFBundleName": "Package_SlimCore",
+        "CFBundleShortVersionString": "26.1102.1001824",
+        "CFBundleVersion": "1001824",
+        "LSMinimumSystemVersion": "14.0"
+      },
+      "sha256": "b5a57c1f4301f3dad253a0cb4880e92342187078a06f4b706a5a35dd95e62b44",
+      "size_bytes": 1253
+    },
+    "Contents/Resources/cua_node/lib/node_modules/@oai/sky/Codex Computer Use.app/Contents/Resources/SwiftProtobuf_SwiftProtobuf.bundle/Contents/Info.plist": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_plist"
+      ],
+      "mode": "0o644",
+      "plist": {
+        "CFBundleIdentifier": "swift-protobuf.SwiftProtobuf.resources",
+        "CFBundleName": "SwiftProtobuf_SwiftProtobuf",
+        "CFBundleShortVersionString": "26.1102.1001824",
+        "CFBundleVersion": "1001824",
+        "LSMinimumSystemVersion": "10.13"
+      },
+      "sha256": "8a3f6f2014ec021a21f292bb2994dfacf0a3e5b8846add18c424aa8d4775463d",
+      "size_bytes": 1277
+    },
+    "Contents/Resources/cua_node/lib/node_modules/@oai/sky/Codex Computer Use.app/Contents/SharedSupport/CUALockScreenGuardian.app/Contents/Info.plist": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_plist"
+      ],
+      "mode": "0o644",
+      "plist": {
+        "CFBundleExecutable": "CUALockScreenGuardian",
+        "CFBundleIdentifier": "com.openai.sky.CUAService.guardian",
+        "CFBundleName": "CUALockScreenGuardian",
+        "CFBundleShortVersionString": "26.1102.1001824",
+        "CFBundleVersion": "1001824",
+        "LSMinimumSystemVersion": "14.4",
+        "LSUIElement": true
+      },
+      "sha256": "440f051725a005ebdab4e080c220c62a6a52e7b9e940febcc7e382e44b247f31",
+      "size_bytes": 1616
+    },
+    "Contents/Resources/cua_node/lib/node_modules/@oai/sky/Codex Computer Use.app/Contents/SharedSupport/CUALockScreenGuardian.app/Contents/MacOS/CUALockScreenGuardian": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_executable"
+      ],
+      "mode": "0o755",
+      "sha256": "36b977086ae541c45fd78942da40796bd22bb751aeabcaa0eb9dee2f98c2766d",
+      "signing": {
+        "entitlements": {},
+        "entitlements_exit_code": 0,
+        "metadata": {
+          "Authority": [
+            "(unavailable)"
+          ],
+          "CDHash": "4d8c1d34ebad1c1e42fe31b9afa913a4118c2c5f",
+          "Format": "app bundle with Mach-O thin (arm64)",
+          "Identifier": "com.openai.sky.CUAService.guardian",
+          "Runtime Version": "26.1.0",
+          "TeamIdentifier": "2DC432GLL2"
+        },
+        "metadata_exit_code": 0,
+        "state": "observed",
+        "verification_performed": false
+      },
+      "size_bytes": 21279792
+    },
+    "Contents/Resources/cua_node/lib/node_modules/@oai/sky/Codex Computer Use.app/Contents/SharedSupport/CUALockScreenGuardian.app/Contents/Resources/Package_Appshot.bundle/Contents/Info.plist": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_plist"
+      ],
+      "mode": "0o644",
+      "plist": {
+        "CFBundleIdentifier": "package.Appshot.resources",
+        "CFBundleName": "Package_Appshot",
+        "CFBundleShortVersionString": "26.1102.1001824",
+        "CFBundleVersion": "1001824",
+        "LSMinimumSystemVersion": "14.0"
+      },
+      "sha256": "9ea1c639f57483805dbe99c4fde56a700681376c9e8034f835826c1d721cbbbd",
+      "size_bytes": 1251
+    },
+    "Contents/Resources/cua_node/lib/node_modules/@oai/sky/Codex Computer Use.app/Contents/SharedSupport/CUALockScreenGuardian.app/Contents/Resources/Package_ComputerUse.bundle/Contents/Info.plist": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_plist"
+      ],
+      "mode": "0o644",
+      "plist": {
+        "CFBundleIdentifier": "package.ComputerUse.resources",
+        "CFBundleName": "Package_ComputerUse",
+        "CFBundleShortVersionString": "26.1102.1001824",
+        "CFBundleVersion": "1001824",
+        "LSMinimumSystemVersion": "14.0"
+      },
+      "sha256": "adfb8c1b80e3e0f91093d36cda549a4776fb8ac6d7ea368f81ce13e8542f1175",
+      "size_bytes": 1259
+    },
+    "Contents/Resources/cua_node/lib/node_modules/@oai/sky/Codex Computer Use.app/Contents/SharedSupport/CUALockScreenGuardian.app/Contents/Resources/Package_SkyPermissions.bundle/Contents/Info.plist": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_plist"
+      ],
+      "mode": "0o644",
+      "plist": {
+        "CFBundleIdentifier": "package.SkyPermissions.resources",
+        "CFBundleName": "Package_SkyPermissions",
+        "CFBundleShortVersionString": "26.1102.1001824",
+        "CFBundleVersion": "1001824",
+        "LSMinimumSystemVersion": "14.0"
+      },
+      "sha256": "8cacf2a8e531a440e1aec723cae234c572d82a104bdf06bf8eb6a56002e907b8",
+      "size_bytes": 1265
+    },
+    "Contents/Resources/cua_node/lib/node_modules/@oai/sky/Codex Computer Use.app/Contents/SharedSupport/CUALockScreenGuardian.app/Contents/Resources/Package_SlimCore.bundle/Contents/Info.plist": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_plist"
+      ],
+      "mode": "0o644",
+      "plist": {
+        "CFBundleIdentifier": "package.SlimCore.resources",
+        "CFBundleName": "Package_SlimCore",
+        "CFBundleShortVersionString": "26.1102.1001824",
+        "CFBundleVersion": "1001824",
+        "LSMinimumSystemVersion": "14.0"
+      },
+      "sha256": "b5a57c1f4301f3dad253a0cb4880e92342187078a06f4b706a5a35dd95e62b44",
+      "size_bytes": 1253
+    },
+    "Contents/Resources/cua_node/lib/node_modules/@oai/sky/Codex Computer Use.app/Contents/SharedSupport/CUALockScreenGuardian.app/Contents/Resources/SwiftProtobuf_SwiftProtobuf.bundle/Contents/Info.plist": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_plist"
+      ],
+      "mode": "0o644",
+      "plist": {
+        "CFBundleIdentifier": "swift-protobuf.SwiftProtobuf.resources",
+        "CFBundleName": "SwiftProtobuf_SwiftProtobuf",
+        "CFBundleShortVersionString": "26.1102.1001824",
+        "CFBundleVersion": "1001824",
+        "LSMinimumSystemVersion": "10.13"
+      },
+      "sha256": "8a3f6f2014ec021a21f292bb2994dfacf0a3e5b8846add18c424aa8d4775463d",
+      "size_bytes": 1277
+    },
+    "Contents/Resources/cua_node/lib/node_modules/@oai/sky/Codex Computer Use.app/Contents/SharedSupport/Codex Computer Use Installer.app/Contents/Info.plist": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_plist"
+      ],
+      "mode": "0o644",
+      "plist": {
+        "CFBundleDisplayName": "Codex Computer Use Installer",
+        "CFBundleExecutable": "Codex Computer Use Installer",
+        "CFBundleIdentifier": "com.openai.sky.CUAService.AuthorizationPluginInstaller",
+        "CFBundleName": "Codex Computer Use Installer",
+        "CFBundleShortVersionString": "26.1102.1001824",
+        "CFBundleVersion": "1001824",
+        "LSMinimumSystemVersion": "14.4"
+      },
+      "sha256": "27366b6432f282476fa594e8868f237600dab1c49fbf5a3778e8a5d754a6ed0a",
+      "size_bytes": 1668
+    },
+    "Contents/Resources/cua_node/lib/node_modules/@oai/sky/Codex Computer Use.app/Contents/SharedSupport/Codex Computer Use Installer.app/Contents/MacOS/Codex Computer Use Installer": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_executable"
+      ],
+      "mode": "0o755",
+      "sha256": "5fbc07b6ef188bcedad59e7337bde3e97f2975140679de3fb8f0177726691440",
+      "signing": {
+        "entitlements": {},
+        "entitlements_exit_code": 0,
+        "metadata": {
+          "Authority": [
+            "(unavailable)"
+          ],
+          "CDHash": "2d855aad2dd0a624dc3aa34f34adf674d6d576d8",
+          "Format": "app bundle with Mach-O thin (arm64)",
+          "Identifier": "com.openai.sky.CUAService.AuthorizationPluginInstaller",
+          "Runtime Version": "26.1.0",
+          "TeamIdentifier": "2DC432GLL2"
+        },
+        "metadata_exit_code": 0,
+        "state": "observed",
+        "verification_performed": false
+      },
+      "size_bytes": 90480
+    },
+    "Contents/Resources/cua_node/lib/node_modules/@oai/sky/Codex Computer Use.app/Contents/SharedSupport/Codex Computer Use Installer.app/Contents/Resources/CodexComputerUseAuthorizationPlugin.bundle/Contents/Info.plist": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_plist"
+      ],
+      "mode": "0o644",
+      "plist": {
+        "CFBundleExecutable": "CodexComputerUseAuthorizationPlugin",
+        "CFBundleIdentifier": "com.openai.sky.CUAService.AuthorizationPlugin",
+        "CFBundleName": "CodexComputerUseAuthorizationPlugin",
+        "CFBundleShortVersionString": "26.1102.1001824",
+        "CFBundleVersion": "1001824",
+        "LSMinimumSystemVersion": "14.4"
+      },
+      "sha256": "a3cea8cc0f58595443c61c9ae27465a14e04c6603e4032a94c5cd3cf0fd4876d",
+      "size_bytes": 1489
+    },
+    "Contents/Resources/cua_node/lib/node_modules/@oai/sky/Codex Computer Use.app/Contents/SharedSupport/Codex Computer Use Installer.app/Contents/Resources/CodexComputerUseAuthorizationPlugin.bundle/Contents/MacOS/CodexComputerUseAuthorizationPlugin": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_executable"
+      ],
+      "mode": "0o755",
+      "sha256": "81409bd9ec8166d2265e3f355d5d86879f28dbd3e76eeebf606284ea83ab22d0",
+      "signing": {
+        "entitlements": {},
+        "entitlements_exit_code": 0,
+        "metadata": {
+          "Authority": [
+            "(unavailable)"
+          ],
+          "CDHash": "eb4ef48a5ae19b9ed343f90dca2f43c04c7cbd77",
+          "Format": "bundle with Mach-O thin (arm64)",
+          "Identifier": "com.openai.sky.CUAService.AuthorizationPlugin",
+          "Runtime Version": "26.1.0",
+          "TeamIdentifier": "2DC432GLL2"
+        },
+        "metadata_exit_code": 0,
+        "state": "observed",
+        "verification_performed": false
+      },
+      "size_bytes": 67872
+    },
+    "Contents/Resources/cua_node/lib/node_modules/@oai/sky/Codex Computer Use.app/Contents/SharedSupport/SkyComputerUseClient.app/Contents/Info.plist": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_plist"
+      ],
+      "mode": "0o644",
+      "plist": {
+        "CFBundleExecutable": "SkyComputerUseClient",
+        "CFBundleIdentifier": "com.openai.sky.CUAService.cli",
+        "CFBundleName": "SkyComputerUseClient",
+        "CFBundleShortVersionString": "26.1102.1001824",
+        "CFBundleVersion": "1001824",
+        "LSMinimumSystemVersion": "14.4",
+        "LSUIElement": true
+      },
+      "sha256": "01a6d5a4d5dd6b0beba6f5b22ff263ae3664e250e6788ef377d4c3339f44cce3",
+      "size_bytes": 1493
+    },
+    "Contents/Resources/cua_node/lib/node_modules/@oai/sky/Codex Computer Use.app/Contents/SharedSupport/SkyComputerUseClient.app/Contents/MacOS/SkyComputerUseClient": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_executable"
+      ],
+      "mode": "0o755",
+      "sha256": "57cd0ae5e1f9812a33e8adf9644d00314b19ae4750cabdde6126348f21721518",
+      "signing": {
+        "entitlements": {
+          "com.apple.application-identifier": "2DC432GLL2.com.openai.sky.CUAService.cli",
+          "com.apple.developer.team-identifier": "2DC432GLL2",
+          "com.apple.security.application-groups": [
+            "2DC432GLL2.com.openai.sky.CUAService"
+          ],
+          "keychain-access-groups": [
+            "2DC432GLL2.*"
+          ]
+        },
+        "entitlements_exit_code": 0,
+        "metadata": {
+          "Authority": [
+            "(unavailable)"
+          ],
+          "CDHash": "81e2454af4cf1cbe748d41a3993eea95986fd96b",
+          "Format": "app bundle with Mach-O thin (arm64)",
+          "Identifier": "com.openai.sky.CUAService.cli",
+          "Runtime Version": "26.1.0",
+          "TeamIdentifier": "2DC432GLL2"
+        },
+        "metadata_exit_code": 0,
+        "state": "observed",
+        "verification_performed": false
+      },
+      "size_bytes": 12145792
+    },
+    "Contents/Resources/cua_node/lib/node_modules/@oai/sky/Codex Computer Use.app/Contents/SharedSupport/SkyComputerUseClient.app/Contents/Resources/SwiftProtobuf_SwiftProtobuf.bundle/Contents/Info.plist": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "bundle_plist"
+      ],
+      "mode": "0o644",
+      "plist": {
+        "CFBundleIdentifier": "swift-protobuf.SwiftProtobuf.resources",
+        "CFBundleName": "SwiftProtobuf_SwiftProtobuf",
+        "CFBundleShortVersionString": "26.1102.1001824",
+        "CFBundleVersion": "1001824",
+        "LSMinimumSystemVersion": "10.13"
+      },
+      "sha256": "8a3f6f2014ec021a21f292bb2994dfacf0a3e5b8846add18c424aa8d4775463d",
+      "size_bytes": 1277
+    },
+    "Contents/Resources/cua_node/lib/node_modules/@oai/sky/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "dependencies": {
+          "@statsig/js-client": "^3.32.6"
+        },
+        "main": "dist/project/cua/sky_js/src/index.js",
+        "name": "@oai/sky",
+        "type": "module",
+        "version": "0.7.17"
+      },
+      "sha256": "60ccac638c3551fc9638303da17ade8814ba4a47f4e44293e16b43b71ec85a1a",
+      "size_bytes": 3073
+    },
+    "Contents/Resources/cua_node/lib/node_modules/@statsig/client-core/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "dependencies": {},
+        "main": "./src/index.js",
+        "name": "@statsig/client-core",
+        "type": "commonjs",
+        "version": "3.33.3"
+      },
+      "sha256": "3de85408224ea91d559f5de61b14168585e075df82975b9335a040fdd254cf9b",
+      "size_bytes": 383
+    },
+    "Contents/Resources/cua_node/lib/node_modules/@statsig/js-client/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "dependencies": {
+          "@statsig/client-core": "3.33.3"
+        },
+        "main": "./src/index.js",
+        "name": "@statsig/js-client",
+        "type": "commonjs",
+        "version": "3.33.3"
+      },
+      "sha256": "1f03d8246f5f87749487b36f0a1ee91f156af6270f897668a68cf6f98b495fb2",
+      "size_bytes": 469
+    },
+    "Contents/Resources/cua_node/lib/node_modules/abstract-level/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "dependencies": {
+          "buffer": "^6.0.3",
+          "is-buffer": "^2.0.5",
+          "level-supports": "^6.2.0",
+          "level-transcoder": "^1.0.1",
+          "maybe-combine-errors": "^1.0.0",
+          "module-error": "^1.0.1"
+        },
+        "engines": {
+          "node": ">=18"
+        },
+        "main": "index.js",
+        "name": "abstract-level",
+        "version": "3.1.1"
+      },
+      "sha256": "e0e6b811be8993aef77f44163f33aa21dcf97cd535fb5aea9ac06bd44da440ac",
+      "size_bytes": 1716
+    },
+    "Contents/Resources/cua_node/lib/node_modules/base64-js/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "main": "index.js",
+        "name": "base64-js",
+        "version": "1.5.1"
+      },
+      "sha256": "9758f3ab8c45e07bb9a368e32f9a8b3729623bbf47cbbb205b32d674ab2a91f0",
+      "size_bytes": 1115
+    },
+    "Contents/Resources/cua_node/lib/node_modules/buffer/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "dependencies": {
+          "base64-js": "^1.3.1",
+          "ieee754": "^1.2.1"
+        },
+        "main": "index.js",
+        "name": "buffer",
+        "version": "6.0.3"
+      },
+      "sha256": "5b105ac0abbf5985cbe62ad28a34032d85c7ef623e0eb01f39441b0feb419004",
+      "size_bytes": 2546
+    },
+    "Contents/Resources/cua_node/lib/node_modules/classic-level/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "dependencies": {
+          "abstract-level": "^3.1.0",
+          "module-error": "^1.0.1",
+          "napi-macros": "^2.2.2",
+          "node-gyp-build": "^4.3.0"
+        },
+        "engines": {
+          "node": ">=18"
+        },
+        "main": "index.js",
+        "name": "classic-level",
+        "version": "3.0.0"
+      },
+      "sha256": "b554d432149434474c764e37e325a26e2e4b465cf632a842b77c90ead33433a5",
+      "size_bytes": 2454
+    },
+    "Contents/Resources/cua_node/lib/node_modules/classic-level/prebuilds/darwin-x64+arm64/classic-level.node": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "native_module"
+      ],
+      "mode": "0o644",
+      "sha256": "87100ea21aaf7de834073daae1a1e96bf856524c936f3e3792fc9b9dc2d24804",
+      "signing": {
+        "entitlements": {},
+        "entitlements_exit_code": 0,
+        "metadata": {
+          "Authority": [
+            "(unavailable)"
+          ],
+          "CDHash": "e43453d8964be852388f2f3806f4ec8f0de15533",
+          "Format": "Mach-O universal (x86_64 arm64)",
+          "Identifier": "classic_level.node",
+          "Runtime Version": "14.5.0",
+          "Sealed Resources": "none",
+          "TeamIdentifier": "2DC432GLL2"
+        },
+        "metadata_exit_code": 0,
+        "state": "observed",
+        "verification_performed": false
+      },
+      "size_bytes": 764016
+    },
+    "Contents/Resources/cua_node/lib/node_modules/corepack/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "engines": {
+          "node": "^22.22.2 || ^24.15.0 || >=26.0.0"
+        },
+        "name": "corepack",
+        "version": "0.36.0"
+      },
+      "sha256": "6f431b9a91afe6b4757f4b5a3855e2f79e2f366dd4242fd397713932aa3a2714",
+      "size_bytes": 2808
+    },
+    "Contents/Resources/cua_node/lib/node_modules/detect-libc/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "engines": {
+          "node": ">=8"
+        },
+        "main": "lib/detect-libc.js",
+        "name": "detect-libc",
+        "version": "2.1.2"
+      },
+      "sha256": "ee88e5b954fdf3a8480b1d01ef767d68d8ca2c6da269f58c5cf1c5550e9aa2a7",
+      "size_bytes": 1278
+    },
+    "Contents/Resources/cua_node/lib/node_modules/fsevents/fsevents.node": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "native_module"
+      ],
+      "mode": "0o755",
+      "sha256": "e46e86010d5511f4e0fb294354a5ea02370fea768bb27c29432b479c0108afc6",
+      "signing": {
+        "entitlements": {},
+        "entitlements_exit_code": 0,
+        "metadata": {
+          "Authority": [
+            "(unavailable)"
+          ],
+          "CDHash": "1a6cc20c8517e261f1a48cfbf36a4b4d6a34d499",
+          "Format": "Mach-O universal (x86_64 arm64)",
+          "Identifier": "-928abb.out",
+          "Runtime Version": "11.1.0",
+          "Sealed Resources": "none",
+          "TeamIdentifier": "2DC432GLL2"
+        },
+        "metadata_exit_code": 0,
+        "state": "observed",
+        "verification_performed": false
+      },
+      "size_bytes": 197696
+    },
+    "Contents/Resources/cua_node/lib/node_modules/fsevents/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "engines": {
+          "node": "^8.16.0 || ^10.6.0 || >=11.0.0"
+        },
+        "main": "fsevents.js",
+        "name": "fsevents",
+        "version": "2.3.2"
+      },
+      "sha256": "80914b12dba592ca926d9e6aae0bf6fdc35d871f756a9b34804b98944fac4506",
+      "size_bytes": 1348
+    },
+    "Contents/Resources/cua_node/lib/node_modules/ieee754/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "main": "index.js",
+        "name": "ieee754",
+        "version": "1.2.1"
+      },
+      "sha256": "a8004b9c8dffe2e1b01a058ecf968a5d50beabcabc43cc98c655184ba6afc050",
+      "size_bytes": 1194
+    },
+    "Contents/Resources/cua_node/lib/node_modules/is-buffer/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "dependencies": {},
+        "engines": {
+          "node": ">=4"
+        },
+        "main": "index.js",
+        "name": "is-buffer",
+        "version": "2.0.5"
+      },
+      "sha256": "79325587cb7a4e56a8bb43343b6cc98ebed94f36f79ec9f10baad9deef52bfda",
+      "size_bytes": 1365
+    },
+    "Contents/Resources/cua_node/lib/node_modules/jpeg-js/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "dependencies": {},
+        "main": "index.js",
+        "name": "jpeg-js",
+        "version": "0.4.4"
+      },
+      "sha256": "8a0418edb81e7bdb69d1d78c4c1aeedeecc839deb58a8eeba6f25ae92ed14e62",
+      "size_bytes": 643
+    },
+    "Contents/Resources/cua_node/lib/node_modules/level-supports/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "engines": {
+          "node": ">=16"
+        },
+        "name": "level-supports",
+        "version": "6.2.0"
+      },
+      "sha256": "e28afda1b6e9990914e78c4b275295a206185178e02f099b1a148f2c876b92d1",
+      "size_bytes": 1138
+    },
+    "Contents/Resources/cua_node/lib/node_modules/level-transcoder/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "dependencies": {
+          "buffer": "^6.0.3",
+          "module-error": "^1.0.1"
+        },
+        "engines": {
+          "node": ">=12"
+        },
+        "main": "index.js",
+        "name": "level-transcoder",
+        "version": "1.0.1"
+      },
+      "sha256": "84aaba1f3d5d18bd11be33a3e8cd81e8ea983f69e85bfe06f3a8fb5baa900db2",
+      "size_bytes": 1098
+    },
+    "Contents/Resources/cua_node/lib/node_modules/maybe-combine-errors/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "dependencies": {},
+        "engines": {
+          "node": ">=10"
+        },
+        "name": "maybe-combine-errors",
+        "version": "1.0.0"
+      },
+      "sha256": "49aa781553517b14ac9050a9150545cc84e9b2e147d3b9479b3f539415ad3d1d",
+      "size_bytes": 669
+    },
+    "Contents/Resources/cua_node/lib/node_modules/module-error/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "engines": {
+          "node": ">=10"
+        },
+        "name": "module-error",
+        "version": "1.0.2"
+      },
+      "sha256": "c6a284e744ee2286d321d0d2494e34e19ccabb028ce73ee5aa487a64a386de07",
+      "size_bytes": 853
+    },
+    "Contents/Resources/cua_node/lib/node_modules/napi-macros/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "dependencies": {},
+        "main": "index.js",
+        "name": "napi-macros",
+        "version": "2.2.2"
+      },
+      "sha256": "537220644cbe97fbd22ba01ce03b2f2922c703e941520c65702d1319ef312f70",
+      "size_bytes": 559
+    },
+    "Contents/Resources/cua_node/lib/node_modules/node-gyp-build/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "main": "index.js",
+        "name": "node-gyp-build",
+        "version": "4.8.4"
+      },
+      "sha256": "9e8def3fbf123e28aa1ca4b6aa557fba4e66eecf6e86d170b61ec1c7ed51305d",
+      "size_bytes": 1004
+    },
+    "Contents/Resources/cua_node/lib/node_modules/pixelmatch/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "dependencies": {
+          "pngjs": "^7.0.0"
+        },
+        "main": "index.js",
+        "name": "pixelmatch",
+        "type": "module",
+        "version": "7.1.0"
+      },
+      "sha256": "eb58a4bbd6c95ec77dfe039710f08b152e80878fae2c9f2b2f3a242aa59b1ae3",
+      "size_bytes": 904
+    },
+    "Contents/Resources/cua_node/lib/node_modules/playwright-core/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "engines": {
+          "node": ">=18"
+        },
+        "name": "playwright-core",
+        "version": "1.57.0"
+      },
+      "sha256": "6d38907778eb872e37e8da93b430b011c3dfbe8848c4214becb7effdc0aff1d6",
+      "size_bytes": 1454
+    },
+    "Contents/Resources/cua_node/lib/node_modules/playwright/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "dependencies": {
+          "playwright-core": "1.57.0"
+        },
+        "engines": {
+          "node": ">=18"
+        },
+        "main": "index.js",
+        "name": "playwright",
+        "optionalDependencies": {
+          "fsevents": "2.3.2"
+        },
+        "version": "1.57.0"
+      },
+      "sha256": "07726a5a20b29123d85311af7d11b7de6bf00ddd03121d3c9061995043ebd261",
+      "size_bytes": 2238
+    },
+    "Contents/Resources/cua_node/lib/node_modules/pngjs/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "engines": {
+          "node": ">=14.19.0"
+        },
+        "main": "./lib/png.js",
+        "name": "pngjs",
+        "version": "7.0.0"
+      },
+      "sha256": "85b17f2f852aece03e71edb4ed4d9fddf6a0a8f0b69ac75d7f00b6592d62d37c",
+      "size_bytes": 1812
+    },
+    "Contents/Resources/cua_node/lib/node_modules/semver/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "engines": {
+          "node": ">=10"
+        },
+        "main": "index.js",
+        "name": "semver",
+        "version": "7.8.5"
+      },
+      "sha256": "7c94cb7f2a53c27b20d76386ec144c062894dbcc909cfabd0f728c37874b1776",
+      "size_bytes": 1661
+    },
+    "Contents/Resources/cua_node/lib/node_modules/sharp/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "dependencies": {
+          "@img/colour": "^1.1.0",
+          "detect-libc": "^2.1.2",
+          "semver": "^7.8.5"
+        },
+        "engines": {
+          "node": ">=20.9.0"
+        },
+        "main": "./dist/index.cjs",
+        "name": "sharp",
+        "optionalDependencies": {
+          "@img/sharp-darwin-arm64": "0.35.5",
+          "@img/sharp-darwin-x64": "0.35.5",
+          "@img/sharp-freebsd-wasm32": "0.35.5",
+          "@img/sharp-libvips-darwin-arm64": "1.3.4",
+          "@img/sharp-libvips-darwin-x64": "1.3.4",
+          "@img/sharp-libvips-linux-arm": "1.3.4",
+          "@img/sharp-libvips-linux-arm64": "1.3.4",
+          "@img/sharp-libvips-linux-ppc64": "1.3.4",
+          "@img/sharp-libvips-linux-riscv64": "1.3.4",
+          "@img/sharp-libvips-linux-s390x": "1.3.4",
+          "@img/sharp-libvips-linux-x64": "1.3.4",
+          "@img/sharp-libvips-linuxmusl-arm64": "1.3.4",
+          "@img/sharp-libvips-linuxmusl-x64": "1.3.4",
+          "@img/sharp-linux-arm": "0.35.5",
+          "@img/sharp-linux-arm64": "0.35.5",
+          "@img/sharp-linux-ppc64": "0.35.5",
+          "@img/sharp-linux-riscv64": "0.35.5",
+          "@img/sharp-linux-s390x": "0.35.5",
+          "@img/sharp-linux-x64": "0.35.5",
+          "@img/sharp-linuxmusl-arm64": "0.35.5",
+          "@img/sharp-linuxmusl-x64": "0.35.5",
+          "@img/sharp-webcontainers-wasm32": "0.35.5",
+          "@img/sharp-win32-arm64": "0.35.5",
+          "@img/sharp-win32-ia32": "0.35.5",
+          "@img/sharp-win32-x64": "0.35.5"
+        },
+        "type": "commonjs",
+        "version": "0.35.5"
+      },
+      "sha256": "ad4a2535d72eb638053a38867b1abf43c328cd1c1dbae5cf4172d498365a8b97",
+      "size_bytes": 8115
+    },
+    "Contents/Resources/default_app/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "main": "main.js",
+        "name": "electron",
+        "type": "module"
+      },
+      "sha256": "3688987acbbeeea464615eee547ab4feca1c33e71ff85607e84e5167ebc595fc",
+      "size_bytes": 95
+    },
+    "Contents/Resources/native/airpods-mute.node": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "native_module"
+      ],
+      "mode": "0o755",
+      "sha256": "1fc10b79fdad06530397242ddad6de27e5afd089a4a0992d4d6bdda3f44fab27",
+      "signing": {
+        "entitlements": {},
+        "entitlements_exit_code": 0,
+        "metadata": {
+          "Authority": [
+            "(unavailable)"
+          ],
+          "CDHash": "359cc3586bef54813149791788ddd1a217c7e2ee",
+          "Format": "Mach-O thin (arm64)",
+          "Identifier": "airpods_mute.node",
+          "Runtime Version": "26.5.0",
+          "Sealed Resources": "none",
+          "TeamIdentifier": "2DC432GLL2"
+        },
+        "metadata_exit_code": 0,
+        "state": "observed",
+        "verification_performed": false
+      },
+      "size_bytes": 113376
+    },
+    "Contents/Resources/native/browser-use-peer-authorization.node": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "native_module"
+      ],
+      "mode": "0o755",
+      "sha256": "4cb95598d578fc19f6ad5d10a163a18e33ad9660ef4aacabd5f3d58687a5be41",
+      "signing": {
+        "entitlements": {},
+        "entitlements_exit_code": 0,
+        "metadata": {
+          "Authority": [
+            "(unavailable)"
+          ],
+          "CDHash": "d549aed633a6514f3029c3ffac12e0adbdd8aa63",
+          "Format": "Mach-O thin (arm64)",
+          "Identifier": "browser_use_peer_authorization.node",
+          "Runtime Version": "26.5.0",
+          "Sealed Resources": "none",
+          "TeamIdentifier": "2DC432GLL2"
+        },
+        "metadata_exit_code": 0,
+        "state": "observed",
+        "verification_performed": false
+      },
+      "size_bytes": 105104
+    },
+    "Contents/Resources/native/devicecheck.node": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "native_module"
+      ],
+      "mode": "0o755",
+      "sha256": "d69b4a345457ce3fd022abeb068d2520077b99d48fe7340a7a7d55179affc0cc",
+      "signing": {
+        "entitlements": {},
+        "entitlements_exit_code": 0,
+        "metadata": {
+          "Authority": [
+            "(unavailable)"
+          ],
+          "CDHash": "d9a739c007c26adbf8ef8cb948df580b28117f24",
+          "Format": "Mach-O thin (arm64)",
+          "Identifier": "devicecheck.node",
+          "Runtime Version": "26.5.0",
+          "Sealed Resources": "none",
+          "TeamIdentifier": "2DC432GLL2"
+        },
+        "metadata_exit_code": 0,
+        "state": "observed",
+        "verification_performed": false
+      },
+      "size_bytes": 110960
+    },
+    "Contents/Resources/native/hid-topology-watcher.node": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "native_module"
+      ],
+      "mode": "0o755",
+      "sha256": "379beeafa42d9af8f23d26cbef10787cbdbdead5b67e023a89544c4fc9bc1363",
+      "signing": {
+        "entitlements": {},
+        "entitlements_exit_code": 0,
+        "metadata": {
+          "Authority": [
+            "(unavailable)"
+          ],
+          "CDHash": "635242bb7a6d2218071ead804d6bc31c46e1ba60",
+          "Format": "Mach-O thin (arm64)",
+          "Identifier": "hid_topology_watcher.node",
+          "Runtime Version": "26.5.0",
+          "Sealed Resources": "none",
+          "TeamIdentifier": "2DC432GLL2"
+        },
+        "metadata_exit_code": 0,
+        "state": "observed",
+        "verification_performed": false
+      },
+      "size_bytes": 132496
+    },
+    "Contents/Resources/native/input-monitoring-permission.node": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "native_module"
+      ],
+      "mode": "0o755",
+      "sha256": "4890f19c465fb20bd4939c862c2b579e1f3a6073111bc8603b63f34cc9020b3a",
+      "signing": {
+        "entitlements": {},
+        "entitlements_exit_code": 0,
+        "metadata": {
+          "Authority": [
+            "(unavailable)"
+          ],
+          "CDHash": "47a4024ae995da49e3256df647a1b2d4558c1c84",
+          "Format": "Mach-O thin (arm64)",
+          "Identifier": "input_monitoring_permission.node",
+          "Runtime Version": "26.5.0",
+          "Sealed Resources": "none",
+          "TeamIdentifier": "2DC432GLL2"
+        },
+        "metadata_exit_code": 0,
+        "state": "observed",
+        "verification_performed": false
+      },
+      "size_bytes": 77552
+    },
+    "Contents/Resources/native/remote-control-device-key.node": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "native_module"
+      ],
+      "mode": "0o755",
+      "sha256": "d6d4602ef72bab6a1ed8339f3ac2f48e3daca160698d15f1449fdc12833ae5ec",
+      "signing": {
+        "entitlements": {},
+        "entitlements_exit_code": 0,
+        "metadata": {
+          "Authority": [
+            "(unavailable)"
+          ],
+          "CDHash": "f15a3c2235d6b604a3845a18e8c67c646f745ce8",
+          "Format": "Mach-O thin (arm64)",
+          "Identifier": "remote_control_device_key.node",
+          "Runtime Version": "26.5.0",
+          "Sealed Resources": "none",
+          "TeamIdentifier": "2DC432GLL2"
+        },
+        "metadata_exit_code": 0,
+        "state": "observed",
+        "verification_performed": false
+      },
+      "size_bytes": 138608
+    },
+    "Contents/Resources/native/sky.node": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "native_module"
+      ],
+      "mode": "0o755",
+      "sha256": "e18639990763d5d8c62ef89c04ac3bdc98c7e610afd1e982f23bb1eb1ccbcc46",
+      "signing": {
+        "entitlements": {},
+        "entitlements_exit_code": 0,
+        "metadata": {
+          "Authority": [
+            "(unavailable)"
+          ],
+          "CDHash": "c16b18147e0590fbaf6f47a752e99866ddc71639",
+          "Format": "Mach-O thin (arm64)",
+          "Identifier": "sky.node",
+          "Runtime Version": "26.5.0",
+          "Sealed Resources": "none",
+          "TeamIdentifier": "2DC432GLL2"
+        },
+        "metadata_exit_code": 0,
+        "state": "observed",
+        "verification_performed": false
+      },
+      "size_bytes": 1383280
+    },
+    "Contents/Resources/native/sparkle.node": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "native_module"
+      ],
+      "mode": "0o755",
+      "sha256": "a5b4c0e80d6df17cf612fb6e6ec529f4c86577fba7bb78299c3d58ed8277dd33",
+      "signing": {
+        "entitlements": {},
+        "entitlements_exit_code": 0,
+        "metadata": {
+          "Authority": [
+            "(unavailable)"
+          ],
+          "CDHash": "08a148f46b0cac9e5633c75ebc827379d6ab3382",
+          "Format": "Mach-O thin (arm64)",
+          "Identifier": "sparkle.node",
+          "Runtime Version": "26.5.0",
+          "Sealed Resources": "none",
+          "TeamIdentifier": "2DC432GLL2"
+        },
+        "metadata_exit_code": 0,
+        "state": "observed",
+        "verification_performed": false
+      },
+      "size_bytes": 236672
+    },
+    "Contents/Resources/native/usb_webauthn.node": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "native_module"
+      ],
+      "mode": "0o755",
+      "sha256": "650a00c809d7d561afeb1cbb1edc90e28e6ea6a698493b637c4425de2d4312cf",
+      "signing": {
+        "entitlements": {},
+        "entitlements_exit_code": 0,
+        "metadata": {
+          "Authority": [
+            "(unavailable)"
+          ],
+          "CDHash": "f7a34a59fa44f94a1f6e93eb8bf544fd641b6819",
+          "Format": "Mach-O thin (arm64)",
+          "Identifier": "usb_webauthn.node",
+          "Runtime Version": "26.5.0",
+          "Sealed Resources": "none",
+          "TeamIdentifier": "2DC432GLL2"
+        },
+        "metadata_exit_code": 0,
+        "state": "observed",
+        "verification_performed": false
+      },
+      "size_bytes": 4819392
+    },
+    "Contents/Resources/plugins/openai-bundled/plugins/browser/node_modules/abstract-level/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "dependencies": {
+          "buffer": "^6.0.3",
+          "is-buffer": "^2.0.5",
+          "level-supports": "^6.2.0",
+          "level-transcoder": "^1.0.1",
+          "maybe-combine-errors": "^1.0.0",
+          "module-error": "^1.0.1"
+        },
+        "engines": {
+          "node": ">=18"
+        },
+        "main": "index.js",
+        "name": "abstract-level",
+        "version": "3.1.1"
+      },
+      "sha256": "e0e6b811be8993aef77f44163f33aa21dcf97cd535fb5aea9ac06bd44da440ac",
+      "size_bytes": 1716
+    },
+    "Contents/Resources/plugins/openai-bundled/plugins/browser/node_modules/classic-level/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "dependencies": {
+          "abstract-level": "^3.1.0",
+          "module-error": "^1.0.1",
+          "napi-macros": "^2.2.2",
+          "node-gyp-build": "^4.3.0"
+        },
+        "engines": {
+          "node": ">=18"
+        },
+        "main": "index.js",
+        "name": "classic-level",
+        "version": "3.0.0"
+      },
+      "sha256": "b554d432149434474c764e37e325a26e2e4b465cf632a842b77c90ead33433a5",
+      "size_bytes": 2454
+    },
+    "Contents/Resources/plugins/openai-bundled/plugins/browser/node_modules/classic-level/prebuilds/darwin-x64+arm64/classic-level.node": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "native_module"
+      ],
+      "mode": "0o644",
+      "sha256": "6fa59b1a5790b6a26e1964bb0345539110159e8a4a3c6a8fd78f079bbc704d9b",
+      "signing": {
+        "entitlements": {},
+        "entitlements_exit_code": 0,
+        "metadata": {
+          "Authority": [
+            "(unavailable)"
+          ],
+          "CDHash": "e43453d8964be852388f2f3806f4ec8f0de15533",
+          "Format": "Mach-O universal (x86_64 arm64)",
+          "Identifier": "classic_level.node",
+          "Runtime Version": "14.5.0",
+          "Sealed Resources": "none",
+          "TeamIdentifier": "2DC432GLL2"
+        },
+        "metadata_exit_code": 0,
+        "state": "observed",
+        "verification_performed": false
+      },
+      "size_bytes": 764016
+    },
+    "Contents/Resources/plugins/openai-bundled/plugins/browser/node_modules/is-buffer/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "dependencies": {},
+        "engines": {
+          "node": ">=4"
+        },
+        "main": "index.js",
+        "name": "is-buffer",
+        "version": "2.0.5"
+      },
+      "sha256": "79325587cb7a4e56a8bb43343b6cc98ebed94f36f79ec9f10baad9deef52bfda",
+      "size_bytes": 1365
+    },
+    "Contents/Resources/plugins/openai-bundled/plugins/browser/node_modules/level-supports/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "engines": {
+          "node": ">=16"
+        },
+        "name": "level-supports",
+        "version": "6.2.0"
+      },
+      "sha256": "e28afda1b6e9990914e78c4b275295a206185178e02f099b1a148f2c876b92d1",
+      "size_bytes": 1138
+    },
+    "Contents/Resources/plugins/openai-bundled/plugins/browser/node_modules/level-transcoder/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "dependencies": {
+          "buffer": "^6.0.3",
+          "module-error": "^1.0.1"
+        },
+        "engines": {
+          "node": ">=12"
+        },
+        "main": "index.js",
+        "name": "level-transcoder",
+        "version": "1.0.1"
+      },
+      "sha256": "84aaba1f3d5d18bd11be33a3e8cd81e8ea983f69e85bfe06f3a8fb5baa900db2",
+      "size_bytes": 1098
+    },
+    "Contents/Resources/plugins/openai-bundled/plugins/browser/node_modules/maybe-combine-errors/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "dependencies": {},
+        "engines": {
+          "node": ">=10"
+        },
+        "name": "maybe-combine-errors",
+        "version": "1.0.0"
+      },
+      "sha256": "49aa781553517b14ac9050a9150545cc84e9b2e147d3b9479b3f539415ad3d1d",
+      "size_bytes": 669
+    },
+    "Contents/Resources/plugins/openai-bundled/plugins/browser/node_modules/module-error/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "engines": {
+          "node": ">=10"
+        },
+        "name": "module-error",
+        "version": "1.0.2"
+      },
+      "sha256": "c6a284e744ee2286d321d0d2494e34e19ccabb028ce73ee5aa487a64a386de07",
+      "size_bytes": 853
+    },
+    "Contents/Resources/plugins/openai-bundled/plugins/browser/node_modules/napi-macros/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "dependencies": {},
+        "main": "index.js",
+        "name": "napi-macros",
+        "version": "2.2.2"
+      },
+      "sha256": "537220644cbe97fbd22ba01ce03b2f2922c703e941520c65702d1319ef312f70",
+      "size_bytes": 559
+    },
+    "Contents/Resources/plugins/openai-bundled/plugins/browser/node_modules/node-gyp-build/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "main": "index.js",
+        "name": "node-gyp-build",
+        "version": "4.8.4"
+      },
+      "sha256": "9e8def3fbf123e28aa1ca4b6aa557fba4e66eecf6e86d170b61ec1c7ed51305d",
+      "size_bytes": 1004
+    },
+    "Contents/Resources/plugins/openai-bundled/plugins/chrome/node_modules/abstract-level/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "dependencies": {
+          "buffer": "^6.0.3",
+          "is-buffer": "^2.0.5",
+          "level-supports": "^6.2.0",
+          "level-transcoder": "^1.0.1",
+          "maybe-combine-errors": "^1.0.0",
+          "module-error": "^1.0.1"
+        },
+        "engines": {
+          "node": ">=18"
+        },
+        "main": "index.js",
+        "name": "abstract-level",
+        "version": "3.1.1"
+      },
+      "sha256": "e0e6b811be8993aef77f44163f33aa21dcf97cd535fb5aea9ac06bd44da440ac",
+      "size_bytes": 1716
+    },
+    "Contents/Resources/plugins/openai-bundled/plugins/chrome/node_modules/classic-level/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "dependencies": {
+          "abstract-level": "^3.1.0",
+          "module-error": "^1.0.1",
+          "napi-macros": "^2.2.2",
+          "node-gyp-build": "^4.3.0"
+        },
+        "engines": {
+          "node": ">=18"
+        },
+        "main": "index.js",
+        "name": "classic-level",
+        "version": "3.0.0"
+      },
+      "sha256": "b554d432149434474c764e37e325a26e2e4b465cf632a842b77c90ead33433a5",
+      "size_bytes": 2454
+    },
+    "Contents/Resources/plugins/openai-bundled/plugins/chrome/node_modules/classic-level/prebuilds/darwin-x64+arm64/classic-level.node": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "native_module"
+      ],
+      "mode": "0o644",
+      "sha256": "cc2f56b51db5e3b436809771f9a7a1f564b0f7df4ea367865f8049d1deea6ea9",
+      "signing": {
+        "entitlements": {},
+        "entitlements_exit_code": 0,
+        "metadata": {
+          "Authority": [
+            "(unavailable)"
+          ],
+          "CDHash": "e43453d8964be852388f2f3806f4ec8f0de15533",
+          "Format": "Mach-O universal (x86_64 arm64)",
+          "Identifier": "classic_level.node",
+          "Runtime Version": "14.5.0",
+          "Sealed Resources": "none",
+          "TeamIdentifier": "2DC432GLL2"
+        },
+        "metadata_exit_code": 0,
+        "state": "observed",
+        "verification_performed": false
+      },
+      "size_bytes": 764016
+    },
+    "Contents/Resources/plugins/openai-bundled/plugins/chrome/node_modules/is-buffer/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "dependencies": {},
+        "engines": {
+          "node": ">=4"
+        },
+        "main": "index.js",
+        "name": "is-buffer",
+        "version": "2.0.5"
+      },
+      "sha256": "79325587cb7a4e56a8bb43343b6cc98ebed94f36f79ec9f10baad9deef52bfda",
+      "size_bytes": 1365
+    },
+    "Contents/Resources/plugins/openai-bundled/plugins/chrome/node_modules/level-supports/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "engines": {
+          "node": ">=16"
+        },
+        "name": "level-supports",
+        "version": "6.2.0"
+      },
+      "sha256": "e28afda1b6e9990914e78c4b275295a206185178e02f099b1a148f2c876b92d1",
+      "size_bytes": 1138
+    },
+    "Contents/Resources/plugins/openai-bundled/plugins/chrome/node_modules/level-transcoder/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "dependencies": {
+          "buffer": "^6.0.3",
+          "module-error": "^1.0.1"
+        },
+        "engines": {
+          "node": ">=12"
+        },
+        "main": "index.js",
+        "name": "level-transcoder",
+        "version": "1.0.1"
+      },
+      "sha256": "84aaba1f3d5d18bd11be33a3e8cd81e8ea983f69e85bfe06f3a8fb5baa900db2",
+      "size_bytes": 1098
+    },
+    "Contents/Resources/plugins/openai-bundled/plugins/chrome/node_modules/maybe-combine-errors/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "dependencies": {},
+        "engines": {
+          "node": ">=10"
+        },
+        "name": "maybe-combine-errors",
+        "version": "1.0.0"
+      },
+      "sha256": "49aa781553517b14ac9050a9150545cc84e9b2e147d3b9479b3f539415ad3d1d",
+      "size_bytes": 669
+    },
+    "Contents/Resources/plugins/openai-bundled/plugins/chrome/node_modules/module-error/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "engines": {
+          "node": ">=10"
+        },
+        "name": "module-error",
+        "version": "1.0.2"
+      },
+      "sha256": "c6a284e744ee2286d321d0d2494e34e19ccabb028ce73ee5aa487a64a386de07",
+      "size_bytes": 853
+    },
+    "Contents/Resources/plugins/openai-bundled/plugins/chrome/node_modules/napi-macros/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "dependencies": {},
+        "main": "index.js",
+        "name": "napi-macros",
+        "version": "2.2.2"
+      },
+      "sha256": "537220644cbe97fbd22ba01ce03b2f2922c703e941520c65702d1319ef312f70",
+      "size_bytes": 559
+    },
+    "Contents/Resources/plugins/openai-bundled/plugins/chrome/node_modules/node-gyp-build/package.json": {
+      "evidence_type": "observed",
+      "hash_state": "complete",
+      "kinds": [
+        "package_manifest"
+      ],
+      "mode": "0o644",
+      "package": {
+        "main": "index.js",
+        "name": "node-gyp-build",
+        "version": "4.8.4"
+      },
+      "sha256": "9e8def3fbf123e28aa1ca4b6aa557fba4e66eecf6e86d170b61ec1c7ed51305d",
+      "size_bytes": 1004
+    }
+  },
+  "bundle": {
+    "CFBundleIdentifier": "com.openai.codex",
+    "CFBundleName": "ChatGPT",
+    "CFBundleShortVersionString": "26.1103.60933",
+    "CFBundleVersion": "25894"
+  },
+  "bundle_path": "<BUNDLE>",
+  "captured_at_utc": "2026-11-10T10:43:03.415939+00:00",
+  "format": "local-app-artifact-corpus",
+  "format_version": 1,
+  "inferences": [],
+  "publication": {
+    "changes": [
+      "Installation path replaced with <BUNDLE>",
+      "Machine-local home paths removed if present"
+    ],
+    "content": "Static metadata and digests only; no application bytes, user state, or credentials",
+    "limitations": [
+      "Automated path removal does not replace reviewing the publication diff",
+      "A sanitized metadata manifest does not license the inspected application"
+    ],
+    "source_manifest_sha256": "73fbcea6785b1160bbc7875c6a4f7e3f53473c813f2f125209862f557c857138",
+    "state": "sanitized_static_artifact_facts"
+  },
+  "scan_errors": [],
+  "scope": {
+    "always_hashed": [
+      "ASAR archives",
+      "MacOS/codex executable"
+    ],
+    "consistency": "Per-file hash stability checked; the whole bundle is not an atomic filesystem snapshot",
+    "inputs": "Application bundle files only; no user state, configuration, auth, or logs",
+    "other_hash_limit_bytes": 268435456,
+    "runtime_behavior": "Not observed; the snapshot never launches application executables",
+    "selection": "Info.plist, bundle executables, package.json, ASARs, macOS/native .node modules, selected runtimes",
+    "signature_verification": "Not performed; codesign metadata and entitlements are declarations",
+    "symlinks": "Skipped; resolved inputs must remain inside the selected bundle"
+  }
+}

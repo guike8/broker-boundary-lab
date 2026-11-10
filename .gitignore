@@ -1,0 +1,27 @@
+# Local evidence stays outside the publication set.
+/local/
+/work/
+/raw/
+/captures/
+/private/
+/node_modules/
+**/__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+*.asar
+*.node
+*.dylib
+*.dll
+*.exe
+*.sqlite*
+*.db
+*.har
+*.saz
+*.pcap*
+*.pem
+*.p12
+*.pfx
+*.key
+*.app/

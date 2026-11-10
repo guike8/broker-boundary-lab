@@ -1,0 +1,38 @@
+{
+  "format": "broker-boundary-audit-summary",
+  "format_version": 1,
+  "target": {
+    "product": "Codex macOS",
+    "app_version": "26.1103.60933",
+    "build": "25894",
+    "cli_version": "0.167.0-alpha.3.2"
+  },
+  "classification": "No confirmed unauthorized task/account crossing or permission-expiry bypass",
+  "isolated_scenarios": {
+    "passed": 65,
+    "failed": 0,
+    "guard_scenarios": 59,
+    "scope_observations": 5,
+    "mutation_sensitivity": 1,
+    "real_crypto": "Ed25519 with synthetic keys and transport"
+  },
+  "tooling_tests": {
+    "passed": 6,
+    "failed": 0
+  },
+  "method_consistency_check": "A deliberately altered method was rejected against the reviewed snippet hash before evaluation.",
+  "evidence_scope": {
+    "selected_shipped_functions_executed": true,
+    "application_bootstrap_executed": false,
+    "live_broker_contacted": false,
+    "real_cross_account_attempt": false,
+    "upstream_rust_tests_executed": false
+  },
+  "review_leads": [
+    "Renderer wrapper permits absent turn metadata under permissive surrounding mocks; downstream tool checks vary.",
+    "Browser proof is cached once per session/turn; same-turn revocation propagation remains untested.",
+    "Browser helper lacks a post-await metadata check; a mutable synthetic metadata source can change while proof is pending. Live request-context lifetime remains unverified.",
+    "Native task/workspace receipt verifiers remain untraced."
+  ],
+  "permission_lifetime": "Turn grants expire for future authority; explicit session grants persist. Existing process sandboxes are not retroactively changed. Fresh terminal input has a separate review path."
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Broker boundary evidence",
+  "type": "object",
+  "required": ["id", "kind", "subject", "claim", "method", "limitations"],
+  "properties": {
+    "id": {"type": "string", "minLength": 1},
+    "kind": {"enum": ["shipped_static", "public_source", "isolated_extracted_function", "synthetic_model", "contained_runtime"]},
+    "subject": {
+      "type": "object",
+      "properties": {
+        "version": {"type": "string"},
+        "artifact_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "member_path": {"type": "string"},
+        "member_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "source_url": {"type": "string", "format": "uri"},
+        "offset_convention": {"type": "string"}
+      },
+      "additionalProperties": true
+    },
+    "claim": {"type": "string", "minLength": 1},
+    "method": {"type": "string", "minLength": 1},
+    "mocks": {"type": "array", "items": {"type": "string"}},
+    "limitations": {"type": "array", "items": {"type": "string"}},
+    "results": {"type": "object"}
+  },
+  "additionalProperties": false
+}

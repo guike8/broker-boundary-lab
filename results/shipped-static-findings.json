@@ -1,0 +1,185 @@
+{
+  "format": "shipped-broker-static-audit",
+  "format_version": 1,
+  "archive_sha256": "a77588b2dcfa9b394d722dd8c2c8b13d3a09bacd49c839cc715245742dba6048",
+  "offset_unit": "zero-based UTF-16 code units, end exclusive",
+  "scope": "Read-only shipped-code inspection; no live broker connection, real task/account access, or application bootstrap execution.",
+  "findings": [
+    {
+      "id": "JS01",
+      "status": "static_control",
+      "title": "Connection request lifetime binds reads to auth and catalog generations",
+      "observation": "captureRequestLifetime snapshots authTokenGeneration/catalogRequestGeneration; returned closure rejects disposal or generation changes. Account-principal publication and reset/reject paths increment these generations and reject queued work.",
+      "locations": [
+        {
+          "member": ".vite/build/early-bootstrap-339-cb7e73ca5a71df7c.js",
+          "source_sha256": "2dd5cefc9452ffdce9b41e7e8463204b444202d7821b049b71dd6f3ac22783de",
+          "start_utf16": 633212,
+          "end_utf16": 633467,
+          "method_sha256": "4fb856dc4eae74960920f74b62bbfb2fb7daeabfb19996b0868698e9077d0621"
+        }
+      ],
+      "unresolved": "Generation change wiring was statically traced, not exercised in a real account switch."
+    },
+    {
+      "id": "JS02",
+      "status": "static_control",
+      "title": "Native thread read validates executor and account around awaits",
+      "observation": "readLocalTaskThread validates current ready executor environment, captures account/user identity, passes lifetime assertion into app-server requests, rechecks executor and account/user before returning a response.",
+      "locations": [
+        {
+          "member": ".vite/build/early-bootstrap-815-e030c49be4b9c405.js",
+          "source_sha256": "67c10f58239453fba595f83917fda3756ac2f40ef87fe5f70dd143d4ecef6ad1",
+          "start_utf16": 4475543,
+          "end_utf16": 4478873,
+          "method_sha256": "eeee0fca1d6d0eecd2e1c6811f6a9f5e024cb5bbddd1867dc10813253d40bb5a"
+        }
+      ],
+      "unresolved": "This handler accepts a target thread ID; it does not independently establish a caller-thread ancestry relation. Cross-chat reading may be the intended capability. Caller entitlement and downstream app-server access were not end-to-end tested."
+    },
+    {
+      "id": "JS03",
+      "status": "static_control",
+      "title": "Workspace and project operations revalidate selected executor",
+      "observation": "prepareChildTaskWorkspace validates local project existence, resolves supplied paths and project roots through realpath, and rechecks executor and project after asynchronous allocation. assignChildTaskProject checks thread environment membership and rechecks executor before membership write.",
+      "locations": [
+        {
+          "member": ".vite/build/early-bootstrap-815-e030c49be4b9c405.js",
+          "source_sha256": "67c10f58239453fba595f83917fda3756ac2f40ef87fe5f70dd143d4ecef6ad1",
+          "start_utf16": 4472848,
+          "end_utf16": 4475543,
+          "method_sha256": "58929593582d1cfd5ab2e497aef7497de1fac29beccf2d4846b173c7b61180df"
+        },
+        {
+          "member": ".vite/build/early-bootstrap-815-e030c49be4b9c405.js",
+          "source_sha256": "67c10f58239453fba595f83917fda3756ac2f40ef87fe5f70dd143d4ecef6ad1",
+          "start_utf16": 4479318,
+          "end_utf16": 4480390,
+          "method_sha256": "8aea4478fb9b2976c62273a24260f0311434bd630a3b4d2ac786dcbbdfad8b6b"
+        }
+      ],
+      "unresolved": "When caller cwd is outside known project roots, newly allocated runtime workspace roots are used; cwd acceptance alone does not prove a write grant. Full account-switch lifecycle not tested."
+    },
+    {
+      "id": "JS04",
+      "status": "static_control",
+      "title": "Interactive requests require current manager ownership",
+      "observation": "Host manager class EV requires current lifetime, existing requested conversation, non-follower stream role, and unused request ID before forwarding interactive requests. It tracks threadId and cancels requests on abort/deletion/retirement. Responses require matching request method and current manager/request identity.",
+      "locations": [
+        {
+          "member": ".vite/build/early-bootstrap-815-e030c49be4b9c405.js",
+          "source_sha256": "67c10f58239453fba595f83917fda3756ac2f40ef87fe5f70dd143d4ecef6ad1",
+          "start_utf16": 1719760,
+          "end_utf16": 1720532,
+          "method_sha256": "a82e74b8e1e464dbba1d32ce4ebdba17442ca163c96f28fb908d4fc27a1524d3"
+        },
+        {
+          "member": ".vite/build/early-bootstrap-815-e030c49be4b9c405.js",
+          "source_sha256": "67c10f58239453fba595f83917fda3756ac2f40ef87fe5f70dd143d4ecef6ad1",
+          "start_utf16": 1720784,
+          "end_utf16": 1721260,
+          "method_sha256": "72e5515ab2527fc53bf36dc2468361a2cfa91eef5aa6a1b794b375ed15435ff0"
+        },
+        {
+          "member": ".vite/build/early-bootstrap-815-e030c49be4b9c405.js",
+          "source_sha256": "67c10f58239453fba595f83917fda3756ac2f40ef87fe5f70dd143d4ecef6ad1",
+          "start_utf16": 1721367,
+          "end_utf16": 1721436,
+          "method_sha256": "b4baa2728b3b943c418a88894e3ad5ab9bb3f8f8baee681a33a825aeb50128de"
+        },
+        {
+          "member": ".vite/build/early-bootstrap-815-e030c49be4b9c405.js",
+          "source_sha256": "67c10f58239453fba595f83917fda3756ac2f40ef87fe5f70dd143d4ecef6ad1",
+          "start_utf16": 1721436,
+          "end_utf16": 1721663,
+          "method_sha256": "e75d45d97c2c95386b919fc73fcecec0901ca0743bb1bad2deac1ae69c9123d9"
+        },
+        {
+          "member": ".vite/build/early-bootstrap-815-e030c49be4b9c405.js",
+          "source_sha256": "67c10f58239453fba595f83917fda3756ac2f40ef87fe5f70dd143d4ecef6ad1",
+          "start_utf16": 1721663,
+          "end_utf16": 1721752,
+          "method_sha256": "7cfacc7e9683ecc72a30efb887eea871f5237437df25607281d1e2bc04f26efa"
+        }
+      ],
+      "unresolved": "The manager source of truth is mocked in the isolated harness; actual native process and identity allowlist remain outside this pass."
+    },
+    {
+      "id": "JS05",
+      "status": "static_control",
+      "title": "Renderer dispatcher rejects mismatched client/delegation context and late turns",
+      "observation": "The renderer ysE7 handler requires threadId, checks dynamic user-message client IDs, verifies realtime-delegation host/thread locator, deduplicates executions using call/host/thread/turn IDs, checks aborts, and re-reads turn status after lazy loading before invoking the executor. The host claim service is only a bounded dedup set, not an authorization decision.",
+      "locations": [
+        {
+          "member": "webview/assets/async/182735.7f13786b92.js",
+          "source_sha256": "119afcc814fe83e733d5b494d3201afe203c51b8d059998b2a8dbf3ed03ccd85",
+          "start_utf16": 1983263,
+          "end_utf16": 1986553,
+          "method_sha256": "7aedb8497170ffad937ea68fc5d7915bf508c5fc92a56769599e924107c6d991"
+        }
+      ],
+      "unresolved": "Turn-status cancellation is conditional on dynamic transport. If both initial and later turn lookups are null, this wrapper does not classify the call as canceled. That can be tested in isolation; downstream tool/manager checks and intended missing-metadata compatibility prevent treating this observation alone as a privilege bypass.",
+      "dedup_location": {
+        "member": ".vite/build/early-bootstrap-815-e030c49be4b9c405.js",
+        "codepoint_offset": 2230974,
+        "symbol": "class _P.tryClaimExecution"
+      }
+    },
+    {
+      "id": "JS06",
+      "status": "static_control",
+      "title": "Native pipe request IDs are client scoped and pending dynamic IDs are unique",
+      "observation": "The native pipe rewrites JSON-RPC IDs with an assigned socket client ID before the broker callback. Dynamic response router EW rejects duplicate pending typed IDs, validates results, and cancels/clears entries.",
+      "locations": [
+        {
+          "member": ".vite/build/early-bootstrap-815-e030c49be4b9c405.js",
+          "source_sha256": "67c10f58239453fba595f83917fda3756ac2f40ef87fe5f70dd143d4ecef6ad1",
+          "start_utf16": 1717316,
+          "end_utf16": 1717478,
+          "method_sha256": "240c27ff6654df6aa94dc702af8e215c5f6c5d048c203120a2ead5654fd644d1"
+        },
+        {
+          "member": ".vite/build/early-bootstrap-815-e030c49be4b9c405.js",
+          "source_sha256": "67c10f58239453fba595f83917fda3756ac2f40ef87fe5f70dd143d4ecef6ad1",
+          "start_utf16": 1717645,
+          "end_utf16": 1717946,
+          "method_sha256": "496541e0f658c5d330653fb76c227079d9349e0824fa6fe3fc388a0e9c46c322"
+        }
+      ],
+      "unresolved": "EW routes by typed callId alone and relies on upstream IPC checks and ID uniqueness for host/task context. No cross-client or cross-task result theft was demonstrated."
+    },
+    {
+      "id": "JS07",
+      "status": "static_control",
+      "title": "Browser access is rechecked across authorization awaits",
+      "observation": "Direct local browser access compares principal-derived executor identity before/after an awaited access check. Executor-backed access checks lifetime signal and environment identity before/after access and browser session preparation. Executor stop aborts lifetime, clears browser authorization, kills its child, and resets environment ready state.",
+      "locations": [
+        {
+          "member": ".vite/build/early-bootstrap-815-e030c49be4b9c405.js",
+          "source_sha256": "67c10f58239453fba595f83917fda3756ac2f40ef87fe5f70dd143d4ecef6ad1",
+          "start_utf16": 1650013,
+          "end_utf16": 1650442,
+          "method_sha256": "adc2129b44583d9217fdb466ae1af3ae8fcb8c20df24eb4a4ad435fbeb6528a5"
+        },
+        {
+          "member": ".vite/build/early-bootstrap-815-e030c49be4b9c405.js",
+          "source_sha256": "67c10f58239453fba595f83917fda3756ac2f40ef87fe5f70dd143d4ecef6ad1",
+          "start_utf16": 4481154,
+          "end_utf16": 4482062,
+          "method_sha256": "3859fd3a4b0ac3a7d06a12eeacbda963fa7a95274bc66cf22961cc3d01715e0a"
+        }
+      ],
+      "unresolved": "Signed-response consumer freshness and replay validation are not proven by these producer checks."
+    }
+  ],
+  "conclusion": "Multiple explicit account/task/lifetime controls observed. No unauthorized task/account crossing or expired permission use demonstrated.",
+  "private_evidence": [
+    "local-methods.json",
+    "extracted-methods.json",
+    "extracted-renderer-methods.json",
+    "extracted-interactive-methods.json",
+    "renderer-handler.local.json",
+    "renderer-execute-function.local.json"
+  ],
+  "redistribution": "This findings file contains original audit prose, artifact hashes, method identifiers, and offsets. Adjacent scratch files may contain proprietary source and must not be published."
+}

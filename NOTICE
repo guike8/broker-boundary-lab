@@ -1,0 +1,11 @@
+Broker Boundary Lab contains original tools and observations about third-party software.
+
+The MIT license covers the original tools and original documentation in this repository only. Application names and trademarks belong to their owners. Hashes, package identities, and entitlement declarations are included as factual observations; no application binary or extracted proprietary source is licensed or distributed here.
+
+Public source comparison target:
+  Project: openai/codex
+  Tag: rust-v0.167.0-alpha.3.2
+  Commit: c40729ea5cf8e947481b130c59807273eda2f8e9
+  URL: https://github.com/openai/codex/tree/c40729ea5cf8e947481b130c59807273eda2f8e9
+
+No upstream source is bundled in the initial publication. Any future third-party code contribution must preserve its own license and attribution.

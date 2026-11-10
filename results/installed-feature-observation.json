@@ -1,0 +1,12 @@
+{
+  "format": "installed-cli-feature-observation",
+  "cli_version": "0.167.0-alpha.3.2",
+  "command": "codex features list",
+  "observed": {
+    "write_stdin_approval": {
+      "stage": "stable",
+      "enabled": true
+    }
+  },
+  "limitation": "This is a feature-listing observation, not a runtime test of terminal input after permission expiry."
+}

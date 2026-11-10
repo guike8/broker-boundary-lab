@@ -1,0 +1,485 @@
+{
+  "format": "local-broker-boundary-scenarios",
+  "format_version": 1,
+  "artifact_sha256": "a77588b2dcfa9b394d722dd8c2c8b13d3a09bacd49c839cc715245742dba6048",
+  "browser_plugin_sha256": "2b75b0ef586d404cd3df5e257a8f63df7ec0f04d06d8d533d02ee9ef7b91d7c5",
+  "harness_version": "0.1.0",
+  "execution": "Selected shipped JavaScript functions with synthetic dependency adapters; application bootstrap, live broker, filesystem operations, browser, user state and network were not invoked by the tested functions.",
+  "dependencies": "Version-specific module aliases and surrounding services are mocked. This tests local control flow, not end-to-end product security.",
+  "methods": [
+    {
+      "name": "captureRequestLifetime",
+      "owner_class": "rF",
+      "member": ".vite/build/early-bootstrap-339-cb7e73ca5a71df7c.js",
+      "source_sha256": "2dd5cefc9452ffdce9b41e7e8463204b444202d7821b049b71dd6f3ac22783de",
+      "start_utf16": 633212,
+      "end_utf16": 633467,
+      "snippet_sha256": "4fb856dc4eae74960920f74b62bbfb2fb7daeabfb19996b0868698e9077d0621"
+    },
+    {
+      "name": "readLocalTaskThread",
+      "owner_class": "eSB",
+      "member": ".vite/build/early-bootstrap-815-e030c49be4b9c405.js",
+      "source_sha256": "67c10f58239453fba595f83917fda3756ac2f40ef87fe5f70dd143d4ecef6ad1",
+      "start_utf16": 4475543,
+      "end_utf16": 4478873,
+      "snippet_sha256": "eeee0fca1d6d0eecd2e1c6811f6a9f5e024cb5bbddd1867dc10813253d40bb5a"
+    },
+    {
+      "name": "readBrowserAccess",
+      "owner_class": "kU",
+      "member": ".vite/build/early-bootstrap-815-e030c49be4b9c405.js",
+      "source_sha256": "67c10f58239453fba595f83917fda3756ac2f40ef87fe5f70dd143d4ecef6ad1",
+      "start_utf16": 1650013,
+      "end_utf16": 1650442,
+      "snippet_sha256": "adc2129b44583d9217fdb466ae1af3ae8fcb8c20df24eb4a4ad435fbeb6528a5"
+    },
+    {
+      "name": "assignChildTaskProject",
+      "owner_class": "eSB",
+      "member": ".vite/build/early-bootstrap-815-e030c49be4b9c405.js",
+      "source_sha256": "67c10f58239453fba595f83917fda3756ac2f40ef87fe5f70dd143d4ecef6ad1",
+      "start_utf16": 4479318,
+      "end_utf16": 4480390,
+      "snippet_sha256": "8aea4478fb9b2976c62273a24260f0311434bd630a3b4d2ac786dcbbdfad8b6b"
+    },
+    {
+      "name": "ysE7",
+      "owner_class": null,
+      "member": "webview/assets/async/182735.7f13786b92.js",
+      "source_sha256": "119afcc814fe83e733d5b494d3201afe203c51b8d059998b2a8dbf3ed03ccd85",
+      "start_utf16": 1983263,
+      "end_utf16": 1986553,
+      "snippet_sha256": "7aedb8497170ffad937ea68fc5d7915bf508c5fc92a56769599e924107c6d991"
+    },
+    {
+      "name": "EB",
+      "owner_class": null,
+      "member": ".vite/build/early-bootstrap-815-e030c49be4b9c405.js",
+      "source_sha256": "67c10f58239453fba595f83917fda3756ac2f40ef87fe5f70dd143d4ecef6ad1",
+      "start_utf16": 1718074,
+      "end_utf16": 1718122,
+      "snippet_sha256": "e807f873a63c68a8e14fd4a775a8b83776bc4e9ceb9c9b03a51f8702d3bc1626"
+    },
+    {
+      "name": "wait",
+      "owner_class": "EW",
+      "member": ".vite/build/early-bootstrap-815-e030c49be4b9c405.js",
+      "source_sha256": "67c10f58239453fba595f83917fda3756ac2f40ef87fe5f70dd143d4ecef6ad1",
+      "start_utf16": 1717316,
+      "end_utf16": 1717478,
+      "snippet_sha256": "240c27ff6654df6aa94dc702af8e215c5f6c5d048c203120a2ead5654fd644d1"
+    },
+    {
+      "name": "route",
+      "owner_class": "EW",
+      "member": ".vite/build/early-bootstrap-815-e030c49be4b9c405.js",
+      "source_sha256": "67c10f58239453fba595f83917fda3756ac2f40ef87fe5f70dd143d4ecef6ad1",
+      "start_utf16": 1717645,
+      "end_utf16": 1717946,
+      "snippet_sha256": "496541e0f658c5d330653fb76c227079d9349e0824fa6fe3fc388a0e9c46c322"
+    },
+    {
+      "name": "isCurrent",
+      "owner_class": "EV",
+      "member": ".vite/build/early-bootstrap-815-e030c49be4b9c405.js",
+      "source_sha256": "67c10f58239453fba595f83917fda3756ac2f40ef87fe5f70dd143d4ecef6ad1",
+      "start_utf16": 1721663,
+      "end_utf16": 1721752,
+      "snippet_sha256": "7cfacc7e9683ecc72a30efb887eea871f5237437df25607281d1e2bc04f26efa"
+    },
+    {
+      "name": "cancelRequest",
+      "owner_class": "EV",
+      "member": ".vite/build/early-bootstrap-815-e030c49be4b9c405.js",
+      "source_sha256": "67c10f58239453fba595f83917fda3756ac2f40ef87fe5f70dd143d4ecef6ad1",
+      "start_utf16": 1721436,
+      "end_utf16": 1721663,
+      "snippet_sha256": "e75d45d97c2c95386b919fc73fcecec0901ca0743bb1bad2deac1ae69c9123d9"
+    },
+    {
+      "name": "sendResponse",
+      "owner_class": "EV",
+      "member": ".vite/build/early-bootstrap-815-e030c49be4b9c405.js",
+      "source_sha256": "67c10f58239453fba595f83917fda3756ac2f40ef87fe5f70dd143d4ecef6ad1",
+      "start_utf16": 1720784,
+      "end_utf16": 1721260,
+      "snippet_sha256": "72e5515ab2527fc53bf36dc2468361a2cfa91eef5aa6a1b794b375ed15435ff0"
+    },
+    {
+      "name": "callInteractiveDynamicAppTool",
+      "owner_class": "EV",
+      "member": ".vite/build/early-bootstrap-815-e030c49be4b9c405.js",
+      "source_sha256": "67c10f58239453fba595f83917fda3756ac2f40ef87fe5f70dd143d4ecef6ad1",
+      "start_utf16": 1719760,
+      "end_utf16": 1720532,
+      "snippet_sha256": "a82e74b8e1e464dbba1d32ce4ebdba17442ca163c96f28fb908d4fc27a1524d3"
+    },
+    {
+      "name": "wce",
+      "owner_class": null,
+      "member": "browser-service.mjs",
+      "source_sha256": "2b75b0ef586d404cd3df5e257a8f63df7ec0f04d06d8d533d02ee9ef7b91d7c5",
+      "start_utf16": 1490935,
+      "end_utf16": 1491584,
+      "snippet_sha256": "546ef05b48aaeb3d79c86999b69d4747c74c4f1d8a6a6cc4858d51145781e805"
+    },
+    {
+      "name": "Y6",
+      "owner_class": null,
+      "member": "browser-service.mjs",
+      "source_sha256": "2b75b0ef586d404cd3df5e257a8f63df7ec0f04d06d8d533d02ee9ef7b91d7c5",
+      "start_utf16": 1490499,
+      "end_utf16": 1490847,
+      "snippet_sha256": "aa47e9d994e985c7945878526df9deb06a4476beaa26bcf44a84cccdfff7b579"
+    }
+  ],
+  "passed": 65,
+  "failed": 0,
+  "results": [
+    {
+      "name": "request lifetime: unchanged",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "request lifetime: auth-generation",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "request lifetime: catalog-generation",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "request lifetime: disposed",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "native thread read after awaited response: none",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "native thread read after awaited response: account",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "native thread read after awaited response: user",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "native thread read after awaited response: environment",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "native thread read after awaited response: auth-generation",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "native thread read after awaited response: catalog-generation",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "native thread read after awaited response: disposed",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "native thread read: wrong executor rejected before requests",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "native thread read: same-account target selection is supported",
+      "kind": "scope-observation",
+      "passed": true
+    },
+    {
+      "name": "executor browser access: none",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "executor browser access: missing-auth",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "executor browser access: wrong-environment",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "executor browser access: denied",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "executor browser access: abort-during-check",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "executor browser access: environment-during-check",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "executor browser access: abort-during-prepare",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "executor browser access: environment-during-prepare",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "project assignment: none",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "project assignment: thread-environment-mismatch",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "project assignment: executor-changes-before-membership",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "renderer dispatch: none",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "renderer dispatch: missing-thread",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "renderer dispatch: wrong-message-client",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "renderer dispatch: realtime-wrong-host",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "renderer dispatch: realtime-wrong-thread",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "renderer dispatch: abort-before-dispatch",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "renderer dispatch: abort-during-claim",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "renderer dispatch: claim-refused",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "renderer dispatch: completed-during-load",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "renderer dispatch: abort-during-load",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "renderer dispatch: absent turn metadata proceeds under permissive service mocks",
+      "kind": "scope-observation",
+      "passed": true
+    },
+    {
+      "name": "response router: duplicate pending ID rejected",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "response router: number and string IDs remain separate",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "response router: unknown and repeated replies rejected",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "response router: mocked schema rejection propagates",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "interactive manager: none",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "interactive manager: missing-conversation",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "interactive manager: follower",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "interactive manager: retired-before-call",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "interactive manager: retired-before-response",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "interactive manager: abort-before-call",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "interactive manager: abort-pending",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "interactive manager: duplicate-request",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "mutation control: account-switch test detects removed account comparison",
+      "kind": "mutation-sensitivity",
+      "passed": true
+    },
+    {
+      "name": "browser signed response: none",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "browser signed response: wrong-signature",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "browser signed response: wrong-signing-key",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "browser signed response: wrong-domain",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "browser signed response: wrong-session",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "browser signed response: wrong-turn",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "browser signed response: wrong-executor",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "browser signed response: wrong-nonce",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "browser signed response: denied",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "browser signed response: extra-field",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "browser signed response: payload-not-string",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "browser signed response: missing-host-key",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "browser access cache: new session or turn creates a fresh nonce-bound request",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "browser access cache: missing current turn rejected",
+      "kind": "guard-scenario",
+      "passed": true
+    },
+    {
+      "name": "browser access cache: same-turn grant is cached",
+      "kind": "scope-observation",
+      "passed": true
+    },
+    {
+      "name": "browser access cache: missing executor context skips this local gate",
+      "kind": "scope-observation",
+      "passed": true
+    },
+    {
+      "name": "browser access gate: mutable metadata can change while proof is pending",
+      "kind": "scope-observation",
+      "passed": true
+    }
+  ],
+  "conclusions": [
+    "The tested guards reject synthetic account/auth/catalog/executor changes, cancellation, mismatched renderer identity and completed turns.",
+    "Reading another synthetic native thread in the same account/executor is supported by the isolated method; caller-thread entitlement is not established here.",
+    "No live cross-account or expired-permission bypass has been demonstrated."
+  ],
+  "not_tested": [
+    "Native task/workspace signed payload verification",
+    "Real account switch teardown",
+    "Remote service grants and clock expiry",
+    "All dynamic tool implementations",
+    "Already-running process permission revocation"
+  ],
+  "qualifications": [
+    "Browser-session preparation may already have begun before a post-await revocation check returns false. The test does not demonstrate rollback or process termination.",
+    "The response schema validator is mocked; the router test checks rejection propagation, not the actual product schema.",
+    "The missing-turn case holds context lookup and downstream executor mocks permissive. It establishes wrapper behavior only.",
+    "Method hashes are pinned to the reviewed local extraction. These are consistency checks, not independent vendor-authenticity verification.",
+    "Browser receipt tests use real Ed25519 cryptography and the selected verifier with synthetic transport. Live browser authorization and same-turn settings-revocation propagation were not tested."
+  ]
+}

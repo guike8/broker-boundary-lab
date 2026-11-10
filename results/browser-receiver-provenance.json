@@ -1,0 +1,36 @@
+{
+  "sha256": "2b75b0ef586d404cd3df5e257a8f63df7ec0f04d06d8d533d02ee9ef7b91d7c5",
+  "chrome_copy_sha256": "2b75b0ef586d404cd3df5e257a8f63df7ec0f04d06d8d533d02ee9ef7b91d7c5",
+  "relative_bundle_paths": [
+    "Resources/plugins/openai-bundled/plugins/browser/scripts/browser-service.mjs",
+    "Resources/plugins/openai-bundled/plugins/chrome/scripts/browser-service.mjs"
+  ],
+  "functions": [
+    {
+      "name": "Ne",
+      "kind": "FunctionDeclaration",
+      "start_utf16": 527144,
+      "end_utf16": 527322,
+      "offset_unit": "zero-based UTF-16 code units, end exclusive"
+    },
+    {
+      "name": "Y6",
+      "kind": "FunctionDeclaration",
+      "start_utf16": 1490499,
+      "end_utf16": 1490847,
+      "offset_unit": "zero-based UTF-16 code units, end exclusive"
+    },
+    {
+      "name": "wce",
+      "kind": "FunctionDeclaration",
+      "start_utf16": 1490935,
+      "end_utf16": 1491584,
+      "offset_unit": "zero-based UTF-16 code units, end exclusive"
+    }
+  ],
+  "extractor_tests": {
+    "inert_top_level_throw": "passed",
+    "repo_output_refusal": "passed"
+  },
+  "execution_during_extraction": "none"
+}

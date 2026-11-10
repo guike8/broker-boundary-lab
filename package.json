@@ -1,0 +1,18 @@
+{
+  "name": "broker-boundary-lab",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Reproducible artifact and broker-boundary audits with synthetic fixtures",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": "^22.18.0 || >=24.11.0"
+  },
+  "scripts": {
+    "test:tooling": "python3 -m unittest discover -s tests -v",
+    "audit": "node tools/audit-local-methods.mjs"
+  },
+  "dependencies": {
+    "@babel/parser": "8.0.4"
+  }
+}
