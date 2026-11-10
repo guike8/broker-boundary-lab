@@ -1,0 +1,75 @@
+{
+  "format": "disposable-vm-browser-lifecycle-status",
+  "format_version": 1,
+  "record_stage": "runtime-preparation-image-clone-in-progress",
+  "full_product_end_to_end": false,
+  "gui_cases_completed": 0,
+  "product_boundary_bypass_demonstrated": false,
+  "prior_evidence": {
+    "browser_component_cases_passed": 7,
+    "browser_component_cases_failed": 0,
+    "result": "browser-component-integration.json",
+    "authority": "synthetic",
+    "live_desktop_policy_or_gui_lifecycle_exercised": false
+  },
+  "target": {
+    "app_version": "26.1103.60933",
+    "app_build": "25894",
+    "asar_sha256": "a77588b2dcfa9b394d722dd8c2c8b13d3a09bacd49c839cc715245742dba6048",
+    "worker_sha256": "ea870d110c925156840f5d2c68bdcda81df3fb6d61c5b9879b3c78d9cd130bc5",
+    "setting": "Work preferences / Local browser use",
+    "guest_artifact_match_verified": false
+  },
+  "preflight": {
+    "host_macos_version": "26.2",
+    "utm_version": "5.0.8",
+    "utm_cli_create_install_command_present": false,
+    "utm_applescript_apple_guest_creation_exposed": true,
+    "utm_installed_dictionary_apple_guest_input_exposed": false,
+    "utm_auto_user_provisioning_documented_minimum_host_and_guest_macos": "27",
+    "guest_runtime_observed_by_this_record": false,
+    "selected_route": "Tart CLI with preprovisioned vanilla macOS guest, SSH and VNC"
+  },
+  "runtime_preparation": {
+    "tart_version_reported_by_complete_app_bundle": "2.41.1",
+    "tart_archive_url": "https://github.com/openai/tart/releases/download/2.41.1/tart.tar.gz",
+    "tart_archive_sha256": "e680a734febccfce7d4e910c1f7f13fc3b00f19a181c945e2d746de3214c32c2",
+    "download_digest_matches_official_formula": true,
+    "strict_deep_codesign_verification": "passed outside command sandbox",
+    "tart_home": "workspace-local scratch storage",
+    "tart_no_auto_prune": true,
+    "guest_image_reference": "ghcr.io/cirruslabs/macos-tahoe-vanilla@sha256:932e8e1f4a294e065c03a2e121ce25be7f90e2a689501a61bff78a1d8c03749e",
+    "guest_image_clone_status": "in_progress",
+    "guest_image_compressed_size_reported_by_tart": "23.3 GB",
+    "guest_image_clone_completed": false,
+    "guest_booted": false
+  },
+  "required_runtime_preconditions": [
+    "New guest with no host account, keychain, app state, browser profile, clipboard or directory shares",
+    "Public image credentials replaced and guest security baseline verified before app authentication",
+    "Guest app signing/version/artifact hashes recorded",
+    "Dedicated test account signed in with the real Work setting available",
+    "Baseline local-browser canary action succeeds with product command provenance",
+    "Actual pending request stage can be positively identified for pending-request cases"
+  ],
+  "cases": [
+    {"id": "G0", "transition": "baseline allow", "status": "not_run", "evidence": []},
+    {"id": "G1", "transition": "off before fresh turn", "status": "not_run", "evidence": []},
+    {"id": "G2", "transition": "revoke between distinct commands in the same turn", "status": "not_run", "evidence": []},
+    {"id": "G3", "transition": "fresh turn after revocation", "status": "not_run", "evidence": []},
+    {"id": "G4", "transition": "revoke before real Work-settings consultation", "status": "not_run", "evidence": []},
+    {"id": "G5", "transition": "revoke after real On response received but before delivery", "status": "not_run", "evidence": []},
+    {"id": "G6", "transition": "select B while identified A access request is pending", "status": "not_run", "evidence": []},
+    {"id": "G7", "transition": "normally scheduled B action while A is pending", "status": "not_run", "evidence": []},
+    {"id": "G8", "transition": "normal Stop while identified A access request is pending", "status": "not_run", "evidence": []}
+  ],
+  "interpretation_constraints": [
+    "A canary counter needs actual product-command evidence for actor attribution.",
+    "Selecting another chat is not proof of execution retirement or task-boundary crossing.",
+    "A delayed Work-settings response is not a delayed signed local browser proof.",
+    "The component test forced retirement outside the normal serialized worker queue.",
+    "No-click timeout alone is not evidence of permission enforcement.",
+    "This publication snapshot records an in-progress clone, not completed guest provisioning or later runtime work."
+  ],
+  "protocol": "../docs/VM_E2E_STATUS.md"
+}
