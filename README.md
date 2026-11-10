@@ -10,6 +10,8 @@ The broker audit exercises selected functions extracted from the locally install
 
 The [browser component integration](docs/BROWSER_COMPONENTS.md) adds a real disposable browser, framed local sockets, Ed25519, and the worker's actual async-local metadata mechanism. All seven cases passed. This follow-up corrects the earlier mutable-metadata race model; it does not establish a full desktop settings-revocation bypass.
 
+The [disposable VM test status](docs/VM_E2E_STATUS.md) records verified setup separately from unrun GUI cases. The [guest canary fixture](docs/CANARY_FIXTURE.md) supplies separate task counters and an operator gate; gate release cannot click a button.
+
 ## Included tools
 
 - `tools/artifact_corpus.py`: collect selected application-bundle metadata, hashes, signing declarations, and entitlements; compare two snapshots.

@@ -1,7 +1,7 @@
 {
   "format": "disposable-vm-browser-lifecycle-status",
   "format_version": 1,
-  "record_stage": "runtime-preparation-image-clone-in-progress",
+  "record_stage": "signed-out-guest-preparation",
   "full_product_end_to_end": false,
   "gui_cases_completed": 0,
   "product_boundary_bypass_demonstrated": false,
@@ -18,7 +18,8 @@
     "asar_sha256": "a77588b2dcfa9b394d722dd8c2c8b13d3a09bacd49c839cc715245742dba6048",
     "worker_sha256": "ea870d110c925156840f5d2c68bdcda81df3fb6d61c5b9879b3c78d9cd130bc5",
     "setting": "Work preferences / Local browser use",
-    "guest_artifact_match_verified": false
+    "guest_artifact_match_verified": true,
+    "browser_service_sha256": "2b75b0ef586d404cd3df5e257a8f63df7ec0f04d06d8d533d02ee9ef7b91d7c5"
   },
   "preflight": {
     "host_macos_version": "26.2",
@@ -27,7 +28,6 @@
     "utm_applescript_apple_guest_creation_exposed": true,
     "utm_installed_dictionary_apple_guest_input_exposed": false,
     "utm_auto_user_provisioning_documented_minimum_host_and_guest_macos": "27",
-    "guest_runtime_observed_by_this_record": false,
     "selected_route": "Tart CLI with preprovisioned vanilla macOS guest, SSH and VNC"
   },
   "runtime_preparation": {
@@ -39,29 +39,66 @@
     "tart_home": "workspace-local scratch storage",
     "tart_no_auto_prune": true,
     "guest_image_reference": "ghcr.io/cirruslabs/macos-tahoe-vanilla@sha256:932e8e1f4a294e065c03a2e121ce25be7f90e2a689501a61bff78a1d8c03749e",
-    "guest_image_clone_status": "in_progress",
+    "guest_image_clone_status": "completed",
     "guest_image_compressed_size_reported_by_tart": "23.3 GB",
-    "guest_image_clone_completed": false,
-    "guest_booted": false
+    "guest_image_clone_completed": true,
+    "guest_booted": true
   },
-  "required_runtime_preconditions": [
-    "New guest with no host account, keychain, app state, browser profile, clipboard or directory shares",
-    "Public image credentials replaced and guest security baseline verified before app authentication",
-    "Guest app signing/version/artifact hashes recorded",
-    "Dedicated test account signed in with the real Work setting available",
-    "Baseline local-browser canary action succeeds with product command provenance",
-    "Actual pending request stage can be positively identified for pending-request cases"
-  ],
   "cases": [
-    {"id": "G0", "transition": "baseline allow", "status": "not_run", "evidence": []},
-    {"id": "G1", "transition": "off before fresh turn", "status": "not_run", "evidence": []},
-    {"id": "G2", "transition": "revoke between distinct commands in the same turn", "status": "not_run", "evidence": []},
-    {"id": "G3", "transition": "fresh turn after revocation", "status": "not_run", "evidence": []},
-    {"id": "G4", "transition": "revoke before real Work-settings consultation", "status": "not_run", "evidence": []},
-    {"id": "G5", "transition": "revoke after real On response received but before delivery", "status": "not_run", "evidence": []},
-    {"id": "G6", "transition": "select B while identified A access request is pending", "status": "not_run", "evidence": []},
-    {"id": "G7", "transition": "normally scheduled B action while A is pending", "status": "not_run", "evidence": []},
-    {"id": "G8", "transition": "normal Stop while identified A access request is pending", "status": "not_run", "evidence": []}
+    {
+      "id": "G0",
+      "transition": "baseline allow",
+      "status": "not_run",
+      "evidence": []
+    },
+    {
+      "id": "G1",
+      "transition": "off before fresh turn",
+      "status": "not_run",
+      "evidence": []
+    },
+    {
+      "id": "G2",
+      "transition": "revoke between distinct commands in the same turn",
+      "status": "not_run",
+      "evidence": []
+    },
+    {
+      "id": "G3",
+      "transition": "fresh turn after revocation",
+      "status": "not_run",
+      "evidence": []
+    },
+    {
+      "id": "G4",
+      "transition": "revoke before real Work-settings consultation",
+      "status": "not_run",
+      "evidence": []
+    },
+    {
+      "id": "G5",
+      "transition": "revoke after real On response received but before delivery",
+      "status": "not_run",
+      "evidence": []
+    },
+    {
+      "id": "G6",
+      "transition": "select B while identified A access request is pending",
+      "status": "not_run",
+      "evidence": []
+    },
+    {
+      "id": "G7",
+      "transition": "normally scheduled B action while A is pending",
+      "status": "not_run",
+      "evidence": []
+    },
+    {
+      "id": "G8",
+      "transition": "normal Stop while identified A access request is pending",
+      "status": "not_run",
+      "evidence": []
+    }
   ],
   "interpretation_constraints": [
     "A canary counter needs actual product-command evidence for actor attribution.",
@@ -69,7 +106,82 @@
     "A delayed Work-settings response is not a delayed signed local browser proof.",
     "The component test forced retirement outside the normal serialized worker queue.",
     "No-click timeout alone is not evidence of permission enforcement.",
-    "This publication snapshot records an in-progress clone, not completed guest provisioning or later runtime work."
+    "This signed-out preparation snapshot does not establish any completed revocation or task-switch case."
   ],
-  "protocol": "../docs/VM_E2E_STATUS.md"
+  "protocol": "../docs/VM_E2E_STATUS.md",
+  "authorized_current_scope": "Prepare signed-out VM for now",
+  "guest_runtime": {
+    "os_version": "26.2",
+    "os_build": "25C56",
+    "architecture": "arm64",
+    "cpu_count": 4,
+    "memory_mib": 8192,
+    "disk_capacity_reported": "50 GB",
+    "host_directory_shares": false,
+    "clipboard_integration": false,
+    "audio": false,
+    "usb_accessories": false,
+    "host_authentication_state_copied": false,
+    "public_image_password_rotated_and_verified": true,
+    "ssh_authentication": "fresh lab-only key",
+    "ssh_host_key_trust": "Initial bootstrap used first-use trust at the new guest IP; template host keys were then regenerated and repinned through that connection; fresh key-auth connection verified.",
+    "sip_reported_enabled": true,
+    "gatekeeper_reenabled": true,
+    "gatekeeper_assessments_reported_enabled": true,
+    "template_ssh_host_keys_regenerated": true,
+    "new_ssh_host_key_connection_verified": true
+  },
+  "guest_app": {
+    "version": "26.1103.60933",
+    "build": "25894",
+    "asar_matches_target_sha256": true,
+    "worker_matches_target_sha256": true,
+    "standalone_strict_deep_codesign_exit_code": 0,
+    "launch_observation": "Sign in screen",
+    "authenticated_app_account": false,
+    "actual_work_policy_route_verified": false,
+    "product_browser_action_verified": false,
+    "browser_service_matches_target_sha256": true
+  },
+  "control_setup": {
+    "experimental_tart_vnc": {
+      "observation": "Wildcard host listener despite loopback URL",
+      "response": "Stopped only the new guest before app authentication; restarted without experimental VNC",
+      "classification": "setup observation, not a vulnerability finding"
+    },
+    "restarted_vm_process_tcp_listener_present": false,
+    "screen_sharing_transport": "guest Screen Sharing through SSH tunnel with host loopback-only listener",
+    "ard_authentication_type": 30,
+    "ard_authentication_succeeded": true,
+    "screenshot_capture_succeeded": true,
+    "automated_input_calibration": "incomplete",
+    "pointer_attempts": 3,
+    "canary_click_validation_completed": false,
+    "vnc_user_matches_guest_console_owner": true,
+    "keyboard_sequence_sent": "super-l",
+    "keyboard_input_delivery_verified": false,
+    "intended_safari_interaction_observed": false
+  },
+  "guest_canary_setup": {
+    "node_version": "24.11.0",
+    "node_archive_sha256": "30bbe12b71f5b89ba44e15dc0cfaf3c733538d46ee375691534b7bbe622225cc",
+    "node_archive_checksum_matched_official_checksums": true,
+    "server_started": true,
+    "browser": "Safari",
+    "fixture_loaded": "A",
+    "observed_counter": 0,
+    "actual_app_browser_action_observed": false,
+    "fixture_validation_scope": "Separate HTTP and disposable Chromium checks; not app GUI execution",
+    "fixture_documentation": "../docs/CANARY_FIXTURE.md",
+    "node_archive_url": "https://nodejs.org/dist/v24.11.0/node-v24.11.0-darwin-arm64.tar.xz",
+    "node_official_checksums_url": "https://nodejs.org/dist/v24.11.0/SHASUMS256.txt",
+    "node_install_scope": "guest lab directory only",
+    "server_stopped_after_preflight": true
+  },
+  "outstanding_preconditions": [
+    "Fresh dedicated app sign-in after signed-out preparation scope is extended",
+    "Automated pointer/key input calibration and guest canary click validation",
+    "Real Work setting availability and baseline app browser action",
+    "Supported identification of the actual pending request stage for pending-request cases"
+  ]
 }
