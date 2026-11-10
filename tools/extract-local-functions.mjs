@@ -12,22 +12,23 @@ const require = createRequire(import.meta.url);
 const MAX_BYTES = 16 * 1024 * 1024;
 
 function usage() {
-  return 'Usage: node tools/extract-local-functions.mjs --file /local/script.mjs --function name [--function another] --out /scratch/functions.json\n' +
+  return 'Usage: node tools/extract-local-functions.mjs --file /local/script.mjs [--function name] [--method name] --out /scratch/functions.json\n' +
     'The output contains local source snippets and must remain outside this repository.\n' +
     'Install @babel/parser here, or set BROKER_LAB_PARSER_ROOT to a directory from which it can be required.\n';
 }
 
 function argumentsOf(argv) {
-  const result = { functions: new Set() };
+  const result = { functions: new Set(), methods: new Set() };
   for (let i = 0; i < argv.length; i++) {
     const key = argv[i];
     if (key === '--help' || key === '-h') return { help: true };
-    if (!['--file', '--function', '--out'].includes(key) || !argv[i + 1]) throw new Error(`Invalid argument: ${key}`);
+    if (!['--file', '--function', '--method', '--out'].includes(key) || !argv[i + 1]) throw new Error(`Invalid argument: ${key}`);
     const value = argv[++i];
     if (key === '--function') result.functions.add(value);
+    else if (key === '--method') result.methods.add(value);
     else result[key.slice(2)] = value;
   }
-  if (!result.file || !result.out || result.functions.size === 0) throw new Error(usage());
+  if (!result.file || !result.out || result.functions.size + result.methods.size === 0) throw new Error(usage());
   return result;
 }
 
@@ -51,15 +52,17 @@ function parserModule() {
   return root ? createRequire(path.join(path.resolve(root), 'package.json'))('@babel/parser') : require('@babel/parser');
 }
 
-function extract(ast, source, names) {
+function extract(ast, source, names, methodNames) {
   const methods = [];
   const stack = [ast];
   while (stack.length) {
     const node = stack.pop();
     if (!node || typeof node !== 'object') continue;
-    if (node.type === 'FunctionDeclaration' && names.has(node.id?.name)) {
+    const functionMatch = node.type === 'FunctionDeclaration' && names.has(node.id?.name);
+    const methodMatch = ['ObjectMethod','ClassMethod'].includes(node.type) && methodNames.has(node.key?.name);
+    if (functionMatch || methodMatch) {
       methods.push({
-        name: node.id.name, kind: node.type, class: null,
+        name: functionMatch ? node.id.name : node.key.name, kind: node.type, class: null,
         start_utf16: node.start, end_utf16: node.end,
         offset_unit: 'zero-based UTF-16 code units, end exclusive',
         code: source.slice(node.start, node.end),
@@ -73,7 +76,7 @@ function extract(ast, source, names) {
   }
   methods.sort((a, b) => a.start_utf16 - b.start_utf16);
   const found = new Set(methods.map(method => method.name));
-  const missing = [...names].filter(name => !found.has(name));
+  const missing = [...names, ...methodNames].filter(name => !found.has(name));
   if (missing.length) throw new Error(`Requested function declarations not found: ${missing.join(', ')}`);
   return methods;
 }
@@ -95,7 +98,7 @@ async function main() {
   const source = new TextDecoder('utf-8', { fatal: true }).decode(bytes);
   const parser = parserModule();
   const ast = parser.parse(source, { sourceType: 'unambiguous' });
-  const methods = extract(ast, source, options.functions);
+  const methods = extract(ast, source, options.functions, options.methods);
   const sha256 = createHash('sha256').update(bytes).digest('hex');
   const output = {
     format: 'local-broker-function-extraction', format_version: 1,

@@ -10,9 +10,13 @@
   },
   "scripts": {
     "test:tooling": "python3 -m unittest discover -s tests -v",
-    "audit": "node tools/audit-local-methods.mjs"
+    "audit": "node tools/audit-local-methods.mjs",
+    "test:browser-components": "node tools/test-browser-components.mjs"
   },
   "dependencies": {
     "@babel/parser": "8.0.4"
+  },
+  "devDependencies": {
+    "playwright-core": "1.58.2"
   }
 }

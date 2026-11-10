@@ -36,13 +36,15 @@ The shipped browser plugin contains a receiver-side verifier. It verifies the Ed
 
 The surrounding helper caches one proof promise per session/turn. A new session or turn generates a new nonce. Same-turn calls reuse the proof, so this helper does not poll settings on every action or apply a wall-clock TTL. It also has no post-await metadata recheck: under a mutable metadata mock, a proof initiated for turn A can finish after that mock changes to turn B. The next call requests a fresh proof for B. Actual request-metadata lifetime and host revocation are separate controls; this is not a demonstrated cross-task operation or expiry bypass.
 
+**Follow-up correction:** the shipped native worker clones and deeply freezes metadata, stores it in `AsyncLocalStorage`, and hides it from retired executions. The shared mutable metadata fixture is therefore counterfactual. A component integration test using that actual context mechanism found no adoption of task B's metadata by a pending task A callback. See [browser component results](BROWSER_COMPONENTS.md).
+
 Browser command dispatch awaits this assertion in the inspected plugin. Account identity is not a field in this particular signed request; the host's executor/session mapping and lifecycle are therefore part of the remaining trust path. Native task/workspace receipt verification remains separate and untraced.
 
 ## Remaining review leads
 
 - The renderer wrapper can proceed when both initial and later turn lookups are absent, given permissive context and downstream-executor mocks. Its claim service deduplicates rather than checking turn existence. Downstream tool checks vary; this isolated observation does not demonstrate an unauthorized operation.
 - Receiver-side verification of signed native task/workspace responses remains untraced. Four identifiers were absent from all 9,815 regular members of the pinned public archive; that bounded search does not establish absence from shipped native code.
-- Same-turn browser proof caching and the helper's missing post-await metadata check need an end-to-end lifecycle test before classifying revocation responsiveness or task crossing.
+- Same-turn browser proof caching persists under synthetic authority revocation in the component lab. The full desktop settings/executor lifecycle still needs an isolated OS-level end-to-end test. Frozen async-local metadata weakens the earlier task-switch race hypothesis.
 - Tool implementations have distinct authorization paths. Results for dynamic transport, local MCP, interactive manager requests, and browser access must retain their individual scope.
 - A real account switch, native peer allowlist, remote service grant expiry, and live broker connection were not exercised.
 

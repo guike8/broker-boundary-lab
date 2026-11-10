@@ -1,0 +1,111 @@
+{
+  "format": "browser-component-integration-adapter",
+  "format_version": 1,
+  "sources": [
+    {
+      "kind": "javascript-file",
+      "sha256": "2b75b0ef586d404cd3df5e257a8f63df7ec0f04d06d8d533d02ee9ef7b91d7c5"
+    },
+    {
+      "kind": "native-embedded-javascript",
+      "sha256": "ea870d110c925156840f5d2c68bdcda81df3fb6d61c5b9879b3c78d9cd130bc5"
+    },
+    {
+      "kind": "asar",
+      "sha256": "a77588b2dcfa9b394d722dd8c2c8b13d3a09bacd49c839cc715245742dba6048"
+    }
+  ],
+  "methods": [
+    {
+      "name": "Ne",
+      "kind": "FunctionDeclaration",
+      "member": "browser-service.mjs",
+      "source_sha256": "2b75b0ef586d404cd3df5e257a8f63df7ec0f04d06d8d533d02ee9ef7b91d7c5",
+      "start_utf16": 527144,
+      "end_utf16": 527322,
+      "snippet_sha256": "81fe21ee622c1a2e5bc7b6f6f3086042ac0bacb735a583485f46d2283b9128d8"
+    },
+    {
+      "name": "executeAgentCommand",
+      "kind": "ObjectMethod",
+      "member": "browser-service.mjs",
+      "source_sha256": "2b75b0ef586d404cd3df5e257a8f63df7ec0f04d06d8d533d02ee9ef7b91d7c5",
+      "start_utf16": 1447503,
+      "end_utf16": 1447668,
+      "snippet_sha256": "58d110263b27316c20120f044b593936d49321643a7695cf79be61da7c5869b9"
+    },
+    {
+      "name": "Y6",
+      "kind": "FunctionDeclaration",
+      "member": "browser-service.mjs",
+      "source_sha256": "2b75b0ef586d404cd3df5e257a8f63df7ec0f04d06d8d533d02ee9ef7b91d7c5",
+      "start_utf16": 1490499,
+      "end_utf16": 1490847,
+      "snippet_sha256": "aa47e9d994e985c7945878526df9deb06a4476beaa26bcf44a84cccdfff7b579"
+    },
+    {
+      "name": "wce",
+      "kind": "FunctionDeclaration",
+      "member": "browser-service.mjs",
+      "source_sha256": "2b75b0ef586d404cd3df5e257a8f63df7ec0f04d06d8d533d02ee9ef7b91d7c5",
+      "start_utf16": 1490935,
+      "end_utf16": 1491584,
+      "snippet_sha256": "546ef05b48aaeb3d79c86999b69d4747c74c4f1d8a6a6cc4858d51145781e805"
+    },
+    {
+      "name": "isPlainObject",
+      "kind": "FunctionDeclaration",
+      "member": "worker-runtime.js",
+      "source_sha256": "f1d24878a59743329e01ce8467d37eca1ed3cd62525fad3493525633d72e48b0",
+      "start_utf16": 702,
+      "end_utf16": 814,
+      "snippet_sha256": "5284f51f21c6bc16195006f2f9886329adc0513b19e816511130adbb7213251f"
+    },
+    {
+      "name": "deepFreeze",
+      "kind": "FunctionDeclaration",
+      "member": "worker-runtime.js",
+      "source_sha256": "f1d24878a59743329e01ce8467d37eca1ed3cd62525fad3493525633d72e48b0",
+      "start_utf16": 816,
+      "end_utf16": 1060,
+      "snippet_sha256": "c86c534a4ce9d0d8954c264c3b3bbbf2b379bd44fcc7cf5f78171c18e4cdfef6"
+    },
+    {
+      "name": "createExecContext",
+      "kind": "FunctionDeclaration",
+      "member": "worker-runtime.js",
+      "source_sha256": "f1d24878a59743329e01ce8467d37eca1ed3cd62525fad3493525633d72e48b0",
+      "start_utf16": 5052,
+      "end_utf16": 6121,
+      "snippet_sha256": "54ab47c4dffa9865f4f522fd2edd2d1711c6b62f08706b74701dce38a7be447e"
+    },
+    {
+      "name": "requestMeta",
+      "kind": "ObjectMethod",
+      "member": "worker-runtime.js",
+      "source_sha256": "f1d24878a59743329e01ce8467d37eca1ed3cd62525fad3493525633d72e48b0",
+      "start_utf16": 6377,
+      "end_utf16": 6525,
+      "snippet_sha256": "b202c3fc6b7a22da333e565a9ba20720b62b2742f43842023b9005b1ed7c4914"
+    },
+    {
+      "name": "createExecState",
+      "kind": "FunctionDeclaration",
+      "member": "worker-runtime.js",
+      "source_sha256": "f1d24878a59743329e01ce8467d37eca1ed3cd62525fad3493525633d72e48b0",
+      "start_utf16": 11448,
+      "end_utf16": 12049,
+      "snippet_sha256": "48d881393237ad118ed98eb7792bb61d8d3a1ac4cc08e4b5ad8946976292052e"
+    },
+    {
+      "name": "readBrowserAccess",
+      "kind": "ClassMethod",
+      "member": ".vite/build/early-bootstrap-815-e030c49be4b9c405.js",
+      "source_sha256": "67c10f58239453fba595f83917fda3756ac2f40ef87fe5f70dd143d4ecef6ad1",
+      "start_utf16": 1650013,
+      "end_utf16": 1650442,
+      "snippet_sha256": "adc2129b44583d9217fdb466ae1af3ae8fcb8c20df24eb4a4ad435fbeb6528a5"
+    }
+  ],
+  "scope": "Selected installed components only; full GUI settings and host lifecycle are outside the adapter."
+}

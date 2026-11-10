@@ -26,13 +26,21 @@
     "application_bootstrap_executed": false,
     "live_broker_contacted": false,
     "real_cross_account_attempt": false,
-    "upstream_rust_tests_executed": false
+    "upstream_rust_tests_executed": false,
+    "disposable_browser_canary_used": true,
+    "synthetic_policy_authority": true
   },
   "review_leads": [
     "Renderer wrapper permits absent turn metadata under permissive surrounding mocks; downstream tool checks vary.",
-    "Browser proof is cached once per session/turn; same-turn revocation propagation remains untested.",
-    "Browser helper lacks a post-await metadata check; a mutable synthetic metadata source can change while proof is pending. Live request-context lifetime remains unverified.",
-    "Native task/workspace receipt verifiers remain untraced."
+    "Browser proof is cached once per session/turn. Synthetic same-turn revocation was observed; desktop settings revocation propagation remains untested.",
+    "Native task/workspace receipt verifiers remain untraced.",
+    "The mutable metadata race model is counterfactual: actual worker metadata is cloned, frozen and async-local. Full desktop settings revocation and downstream late-work cancellation remain untested."
   ],
-  "permission_lifetime": "Turn grants expire for future authority; explicit session grants persist. Existing process sandboxes are not retroactively changed. Fresh terminal input has a separate review path."
+  "permission_lifetime": "Turn grants expire for future authority; explicit session grants persist. Existing process sandboxes are not retroactively changed. Fresh terminal input has a separate review path.",
+  "browser_component_integration": {
+    "passed": 7,
+    "failed": 0,
+    "full_product_end_to_end": false,
+    "scope": "Selected production components, synthetic authority, local framed sockets, real Ed25519, real AsyncLocalStorage, disposable Chromium"
+  }
 }

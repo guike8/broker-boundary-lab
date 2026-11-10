@@ -479,6 +479,7 @@
     "Browser-session preparation may already have begun before a post-await revocation check returns false. The test does not demonstrate rollback or process termination.",
     "The response schema validator is mocked; the router test checks rejection propagation, not the actual product schema.",
     "The missing-turn case holds context lookup and downstream executor mocks permissive. It establishes wrapper behavior only.",
+    "The mutable-metadata case is counterfactual. Follow-up worker inspection and integration show cloned, deeply frozen, async-local metadata hidden from retired calls; it does not establish a reachable task-switch race.",
     "Method hashes are pinned to the reviewed local extraction. These are consistency checks, not independent vendor-authenticity verification.",
     "Browser receipt tests use real Ed25519 cryptography and the selected verifier with synthetic transport. Live browser authorization and same-turn settings-revocation propagation were not tested."
   ]

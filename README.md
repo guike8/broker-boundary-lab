@@ -8,6 +8,8 @@ No sandbox escape or cross-account access has been demonstrated by the initial a
 
 The broker audit exercises selected functions extracted from the locally installed build, with synthetic surrounding services. See [the audit findings](docs/BROKER_AUDIT.md) and [machine-readable scenarios](results/isolated-scenarios.json). The application code is extracted by each researcher into scratch space and is not redistributed here.
 
+The [browser component integration](docs/BROWSER_COMPONENTS.md) adds a real disposable browser, framed local sockets, Ed25519, and the worker's actual async-local metadata mechanism. All seven cases passed. This follow-up corrects the earlier mutable-metadata race model; it does not establish a full desktop settings-revocation bypass.
+
 ## Included tools
 
 - `tools/artifact_corpus.py`: collect selected application-bundle metadata, hashes, signing declarations, and entitlements; compare two snapshots.
@@ -18,6 +20,8 @@ The broker audit exercises selected functions extracted from the locally install
 - `tools/extract-audit-target.mjs`: extract the reviewed broker methods from a local ASAR using the included build adapter.
 - `tools/audit-local-methods.mjs`: run account, executor, cancellation, response-correlation, and renderer-lifecycle scenarios against those exact methods.
 - `adapters/`: artifact and method fingerprints for the reviewed build, without source snippets.
+- `tools/extract-worker-context.mjs`: extract the reviewed metadata/context definitions from the local native worker as inert source.
+- `tools/test-browser-components.mjs`: run the browser-proof component circuit against a disposable canary page and synthetic permission authority.
 
 Python 3.10 or later is sufficient for these tools. Snapshot collection requires macOS and uses the system `codesign` command. Comparison, sanitization, publication checking, and synthetic tests use only the Python standard library and run without the target application.
 

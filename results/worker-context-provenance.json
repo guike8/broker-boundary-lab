@@ -1,0 +1,16 @@
+{
+  "source": "Resources/cua_node/bin/node_repl",
+  "binary_sha256": "ea870d110c925156840f5d2c68bdcda81df3fb6d61c5b9879b3c78d9cd130bc5",
+  "embedded_worker_runtime": {
+    "binary_start": 11478022,
+    "binary_end": 11492953,
+    "sha256": "f1d24878a59743329e01ce8467d37eca1ed3cd62525fad3493525633d72e48b0",
+    "syntax": "UTF-8 JavaScript; original CommonJS worker-runtime definitions"
+  },
+  "create_exec_context": {
+    "binary_start": 11483074,
+    "binary_end": 11484144,
+    "sha256": "cf4ddd2420215e44f7298533e55c47b2829a71afe66faddbc83526f54a127980"
+  },
+  "redistribution": "Scratch contains extracted application source. Do not publish raw snippets."
+}
